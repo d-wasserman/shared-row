@@ -14,7 +14,7 @@ These objectives can be identified specifically below:
 # Related Projects
 
 * [SharedStreets](https://www.sharedstreets.io/)
-* [StreetMix](https://github.com/streetmix/streetmix)
+* [Streetmix](https://github.com/streetmix/streetmix)
 * [OpenStreetMap](https://www.openstreetmap.org/)
 * [CityEngine Complete Street Rule](https://github.com/d-wasserman/Complete_Street_Rule)
 * [Remix Streets](https://www.remix.com/streets)
