@@ -19,7 +19,7 @@ The following section identifies challenges currently encountered in developing 
 
 # Related Projects
 
-* [SharedStreets](https://www.sharedstreets.io/)
+* [SharedStreets](https://www.sharedstreets.io/) (and the [CurbLR](https://github.com/sharedstreets/CurbLR) specification)
 * [Streetmix](https://github.com/streetmix/streetmix)
 * [OpenStreetMap](https://www.openstreetmap.org/)
 * [CityEngine Complete Street Rule](https://github.com/d-wasserman/Complete_Street_Rule)
