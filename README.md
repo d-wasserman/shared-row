@@ -19,7 +19,7 @@ The following section identifies challenges currently encountered in developing 
 
 # Specification-in-Brief
 
-
+![alt text](../master/assets/SpecificationSample.JPG "Specification Sample")
 
 * Line begin and end points determine street orientation
 ** Additive representations assume right vs left sides of a street are based on the perspective of an observer looking from LR1 to LR2
