@@ -27,7 +27,7 @@ The following section identifies challenges currently encountered in developing 
 * Linear units for fields are in Meters
 * Each segment corresponds to a SharedStreetID, and a geometry that is a consolidated centerline (no dual-carriage ways). 
 * SharedStreet intersections pedestrian crosswalks are associated with the segment they are intended to represent.
-* Crosswalks will provide ways to move back and forth between Additive and Slice representations
+* Crosswalks will provide ways to move back and forth between Additive and Slice representations, enabling cities to maintain flexibility in terms of how they would maintain and edit a ROW database. 
 
 For a more detailed description of the specification, check specification readme here.
 
