@@ -1,0 +1,2 @@
+# Specification Details
+The specification is a work in progress currently being drafted in the excel sheet for editing. This a work in progress and markdown document will be generated based on the details in the sheet. File an issue if you want to suggest an alternative. 
