@@ -22,8 +22,8 @@ The following section identifies challenges currently encountered in developing 
 ![alt text](../master/assets/SpecificationSample.JPG "Specification Sample")
 
 * Line begin and end points determine street orientation
-** Additive representations assume right vs left sides of a street are based on the perspective of an observer looking from LR1 to LR2
-** Slice representations assume slices are described from left to right, with left vs. right based on the perspective from LR1 to LR2
+..* Additive representations assume right vs left sides of a street are based on the perspective of an observer looking from LR1 to LR2
+..* Slice representations assume slices are described from left to right, with left vs. right based on the perspective from LR1 to LR2
 * Linear units for fields are in Meters
 * Each segment corresponds to a SharedStreetID, and a geometry that is a consolidated centerline (no dual-carriage ways). 
 * SharedStreet intersections pedestrian crosswalks are associated with the segment they are intended to represent.
