@@ -29,7 +29,7 @@ The following section identifies challenges currently encountered in developing 
 * SharedStreet intersections pedestrian crosswalks are associated with the segment they are intended to represent.
 * Crosswalks will provide ways to move back and forth between Additive and Slice representations, enabling cities to maintain flexibility in terms of how they would maintain and edit a ROW database. 
 
-For a more detailed description of the specification, check specification readme here.
+For a more detailed description of the specification, check specification [here](../master/specification).
 
 # Related Projects
 
