@@ -1,6 +1,14 @@
+############################################################################
+## Tool name: shared-row-tools
+## Created by: David Wasserman, Fehr & Peers
+## Last updated: 8/25/2019
+############################################################################
 # -*- coding: utf-8 -*-
+''' Python toolbox that defines all the tools in the shared-row-spec tool
+suite.'''
 
 import arcpy
+import scripts
 
 
 class Toolbox(object):
@@ -33,7 +41,7 @@ class Add_Additive_Specification_Fields(object):
         param0 = arcpy.Parameter(
         displayName="Input Line Features",
         name="input_line_features",
-        datatype="GPFeatureLayer",
+        datatype="DEFeatureClass",
         parameterType="Required",
         direction="Input")
 
