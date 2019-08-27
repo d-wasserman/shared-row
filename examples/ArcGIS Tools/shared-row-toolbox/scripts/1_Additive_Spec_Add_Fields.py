@@ -1,6 +1,6 @@
 # --------------------------------
 # Name: 1_Additive_Spec_Add_Fields.py
-# Purpose: This tool will add
+# Purpose: This tool will add all fields associated with the additive shared-row specification.
 # Current Owner: David Wasserman
 # Last Modified: 8/25/2019
 # Copyright:   David Wasserman
@@ -27,7 +27,6 @@ import arcpy
 import pandas as pd
 import os
 import sharedrowlib as srl
-
 
 
 def add_additive_specification_fields_by_table(in_fc, csv, number_of_expandable_lanes=4, field_name_col="Name",
@@ -69,10 +68,15 @@ def add_additive_specification_fields_by_table(in_fc, csv, number_of_expandable_
                     for i in range(5, int(number_of_expandable_lanes) + 1):
                         new_numeric_field = fieldname.replace("_X", "_{0}".format(i))
                         srl.add_new_field(in_fc, new_numeric_field, row[type_col])
-                    continue # Do not add X Field. 
+                    continue  # Do not add X Field.
                 else:
                     continue
-            srl.add_new_field(in_fc, fieldname, row[type_col])
+            field_type = row[type_col]
+            srl.add_new_field(in_fc, fieldname, field_type)
+            if str(field_type).upper() == "TEXT":
+                continue
+            else:
+                arcpy.AssignDefaultToField_management(in_fc, fieldname, 0)
         srl.arc_print("Script Complete!")
     except Exception as e:
         srl.arc_print("Tool Script Error!")
@@ -95,7 +99,7 @@ if __name__ == '__main__':
     input_feature_class = arcpy.GetParameterAsText(0)
     number_of_expandable_lanes = int(arcpy.GetParameterAsText(1))
     optional_bool = bool(arcpy.GetParameterAsText(2))
-    specification_data_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),"specification_data")
-    additive_csv = os.path.join(specification_data_dir,r"additive_shared_row_fields.csv")
+    specification_data_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "specification_data")
+    additive_csv = os.path.join(specification_data_dir, r"additive_shared_row_fields.csv")
     add_additive_specification_fields_by_table(input_feature_class, additive_csv, number_of_expandable_lanes,
                                                optional_bool=optional_bool)
