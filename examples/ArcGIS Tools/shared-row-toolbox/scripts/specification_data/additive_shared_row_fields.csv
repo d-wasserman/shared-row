@@ -1,8 +1,10 @@
 ﻿Name,Name_Shp,Type,Optional
-SharedStreetID,SSID,Text,0
+SharedStreetID,SSID,ID,0
 Right_Sidewalk_Frontage_Zone,RSW_Frnt_Z,Double,1
 Right_Sidewalk_Through_Zone,RSW_Thru_Z,Double,0
+Right_Sidewalk_Through_Meta,RSW_Thru_Z,Text,1
 Right_Sidewalk_Furniture_Zone,RSW_Furn_Z,Double,0
+Right_Sidewalk_Furniture_Meta,RSW_Furn_Z,Text,0
 Right_Through_Lane_1,RThru_Ln_1,Double,0
 Right_Through_Lane_2,RThru_Ln_2,Double,0
 Right_Through_Lane_3,RThru_Ln_3,Double,0
@@ -19,7 +21,9 @@ Center_Lane,Center_Ln,Double,0
 Center_Lane_Meta,Cent_Meta,Text,0
 Left_Sidewalk_Frontage_Zone,LSW_Frnt_Z,Double,1
 Left_Sidewalk_Through_Zone,LSW_Thru_Z,Double,0
+Left_Sidewalk_Through_Meta,LSW_Thru_Z,Text,1
 Left_Sidewalk_Furniture_Zone,LSW_Furn_Z,Double,0
+Left_Sidewalk_Furniture_Meta,LSW_Furn_Z,Text,0
 Left_Through_Lane_1,LThru_Ln_1,Double,0
 Left_Through_Lane_2,LThru_Ln_2,Double,0
 Left_Through_Lane_3,LThru_Ln_3,Double,0
