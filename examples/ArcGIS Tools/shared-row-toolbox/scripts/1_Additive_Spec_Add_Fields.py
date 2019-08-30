@@ -49,7 +49,6 @@ def add_additive_specification_fields_by_table(in_fc, csv, number_of_expandable_
     try:
         arcpy.env.overwriteOutput = True
         workspace = os.path.dirname(in_fc)
-        srl.arc_print(csv)
         df = pd.read_csv(csv)
         for index, row in df.iterrows():
             raw_field = str(row[field_name_col])
