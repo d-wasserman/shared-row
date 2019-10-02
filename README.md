@@ -3,7 +3,7 @@ This is an open specification for describing the right-of-way (ROW) for a Shared
 # Goal
 The goal of this specification is to enable transportation professionals, urban planners, and urban designers to create a common database schema to describe the right of way.
 # Objectives
-The specific objectives of this specification revolve around creating a commmon specification built around SharedStreets and building a crosswalk between common centerline formats and OpenStreetMap (OSM).
+The specific objectives of this specification revolve around creating a commmon specification built around SharedStreets that helps to define the right-of-way (ROW) of a street. This specification also aims to provide ready to use tools to build these databases and develop crosswalks etween different representations of the ROW.
 
 These objectives can be identified specifically below:
 
