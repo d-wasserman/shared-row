@@ -1,5 +1,5 @@
 ﻿Name,Name_Shp,Type,Optional
-SharedStreetID,SSID,ID,0
+SharedStreetID,SSID,Text,0
 Right_Sidewalk_Frontage_Zone,RSW_Frnt_Z,Double,1
 Right_Sidewalk_Through_Zone,RSW_Thru_Z,Double,0
 Right_Sidewalk_Furniture_Zone,RSW_Furn_Z,Double,0
