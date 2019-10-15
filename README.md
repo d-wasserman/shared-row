@@ -9,7 +9,9 @@ These objectives can be identified specifically below:
 
 1. Provide a common index based specification for describing sections of ROW using common descriptors. 
 2. Describe a crosswalk that has a system of defaults built around taking existing data describing the ROW (OSM/Centerline Databases/Bicycle Facility Files), that creates default templates for ROW description that can be further edited and enhanced. 
-3. Provide sample scripts and use cases that work across platforms (proprietary and open) so planners have the tools to build databases that conform to the shared-row-spec. 
+3. Provide a high level data format that can connect project evaluation, prioritization, and design across multiple scales and disciplines that interact with transportation systems. 
+4. Provide sample scripts and use cases that work across platforms (proprietary and open) so planners have the tools to build databases that conform to the shared-row-spec. 
+
 
 # Problem Formulation 
 The following section identifies challenges currently encountered in developing robust cross-sectional databases. 
