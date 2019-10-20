@@ -100,7 +100,7 @@ def add_additive_specification_domains_to_gdb(in_gdb, in_features, csv, prepende
         srl.arc_print("Tool Script Error!")
         import traceback, sys
         tb = sys.exc_info()[2]
-        srl.arc_print("An error occured on line %i" % tb.tb_lineno)
+        srl.arc_print("An error occurred on line %i" % tb.tb_lineno)
         arcpy.AddError("The error occurred on line {0}...".format(tb.tb_lineno))
 
 
@@ -111,8 +111,9 @@ def add_additive_specification_domains_to_gdb(in_gdb, in_features, csv, prepende
 # as a geoprocessing script tool, or as a module imported in
 # another script
 if __name__ == '__main__':
-    # Define input parameters
+    # Define input parameterss
     import os
+
     input_geodatabase = arcpy.GetParameterAsText(0)
     input_features = arcpy.GetParameterAsText(1)
     specification_data_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "specification_data")
