@@ -1,13 +1,13 @@
 FieldName,DomainDescription,FieldType,DomainType,CodedValues,ValueDescriptions
-Right_Sidewalk_Furniture_Meta,Right Sidewalk Furntiture Zone Metadata Descriptor,Text,CODED,street_trees_in_planted_buffer;street_trees_in_curb_cuts;planted_buffer;filter_strip;transit_shelter;complex,street_trees_in_planted_buffer;street_trees_in_curb_cuts;planted_buffer;filter_strip;transit_shelter;complex
-Right_Bike_Buffer_Meta,Right Bike Buffer Zone Metadata Descriptor,Text,CODED,paint;post;curb;planter;separator,paint;post;curb;planter;separator
+Right_Sidewalk_Furniture_Meta,Right Sidewalk Furntiture Zone Metadata Descriptor,Text,CODED,vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts;filter_strip;transit_shelter;complex,vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts;filter_strip;transit_shelter;complex
+Right_Bike_Buffer_Meta,Right Bike Buffer Zone Metadata Descriptor,Text,CODED,paint;post;curb;planter;separator;vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts; stone; brick; other,paint;post;curb;planter;separator;vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts; stone; brick; other
 Right_Parking_Lane_Meta,Right Parking Lane Metadata Descriptor,Text,CODED,parking;passenger_loading;freight_loading;parklet;no-parking,parking;passenger_loading;freight_loading;parklet;no-parking
 Right_Transit_Meta,Right Transit Lane Metadata Descriptor,Text,CODED,bus;hov;rail;bus_bike,bus;hov;rail;bus_bike
 Center_Lane_Meta,Centerlane Metadata Descriptor,Text,CODED,median;turn_lane;boulevard;barrier;median_turn_lane,median;turn_lane;boulevard;barrier;median_turn_lane
-Left_Sidewalk_Furniture_Meta,Left Sidewalk Furntiture Zone Metadata Descriptor,Text,CODED,street_trees_in_planted_buffer;street_trees_in_curb_cuts;planted_buffer;filter_strip;transit_shelter;complex,street_trees_in_planted_buffer;street_trees_in_curb_cuts;planted_buffer;filter_strip;transit_shelter;complex
-Left_Bike_Buffer_Meta,Left Bike Buffer Zone Metadata Descriptor,Text,CODED,paint;post;curb;planter;separator,paint;post;curb;planter;separator
+Left_Sidewalk_Furniture_Meta,Left Sidewalk Furntiture Zone Metadata Descriptor,Text,CODED,vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts;filter_strip;transit_shelter;complex,vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts;filter_strip;transit_shelter;complex
+Left_Bike_Buffer_Meta,Left Bike Buffer Zone Metadata Descriptor,Text,CODED,paint;post;curb;planter;separator;vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts; stone; brick; other,paint;post;curb;planter;separator;vegetated; vegetated_with_trees;vegetated_with_tree_curb_cuts; stone; brick; other
 Left_Parking_Lane_Meta,Left Parking Lane Metadata Descriptor,Text,CODED,parking;passenger_loading;freight_loading;parklet;no-parking,parking;passenger_loading;freight_loading;parklet;no-parking
 Left_Transit_Meta,Left Transit Lane Metadata Descriptor,Text,CODED,bus;hov;rail;bus_bike,bus;hov;rail;bus_bike
-End_Crosswalk_Meta,End Crosswalk Type,Text,CODED,continental;transverse;ladder;textured;other,continental;transverse;ladder;textured;other
-Begin_Crosswalk_Meta,Begin Crosswalk Type,Text,CODED,continental;transverse;ladder;textured;other,continental;transverse;ladder;textured;other
-Off_Street_Meta,Off-Street Metadata Descriptor,Text,CODED,asphalt;gravel;dirt,asphalt;gravel;dirt
+End_Crosswalk_Meta,End Crosswalk Type,Text,CODED,continental;transverse;ladder;textured;zebra;other,continental;transverse;ladder;textured;zebra;other
+Begin_Crosswalk_Meta,Begin Crosswalk Type,Text,CODED,continental;transverse;ladder;textured;zebra;other,continental;transverse;ladder;textured;zebra;other
+Off_Street_Meta,Off-Street Metadata Descriptor,Text,CODED,asphalt;gravel;dirt;stone;brick,asphalt;gravel;dirt;stone;brick
