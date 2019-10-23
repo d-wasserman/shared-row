@@ -159,6 +159,34 @@ def validate_df_names(dataframe, output_feature_class_workspace):
     return dataframe
 
 
+def construct_index_dict(field_names, index_start=0):
+    """This function will construct a dictionary used to retrieve indexes for cursors.
+    :param - field_names - list of strings (field names) to load as keys into a dictionary
+    :param - index_start - an int indicating the beginning index to start from (default 0).
+    :return - dictionary in the form of {field:index,...}"""
+    dict = {str(field): index for index, field in enumerate(field_names, start=index_start)}
+    return dict
+
+
+def retrieve_row_values(row, field_names, index_dict):
+    """This function will take a given list of field names, cursor row, and an index dictionary provide
+    a tuple of passed row values.
+    :param - row - cursor row
+    :param - field_names -list of fields and their order to retrieve
+    :param - index_dict - cursors dictionary in the form of {field_name : row_index}
+    :return - list of values from cursor"""
+    row_values = []
+    for field in field_names:
+        index = index_dict.get(field, None)
+        if index is None:
+            print("Field could not be retireved. Passing None.")
+            value = None
+        else:
+            value = row[index]
+        row_values.append(value)
+    return row_values
+
+
 @arc_tool_report
 def arcgis_table_to_dataframe(in_fc, input_fields, query="", skip_nulls=False, null_values=None):
     """Function will convert an arcgis table into a pandas dataframe with an object ID index, and the selected
@@ -170,17 +198,17 @@ def arcgis_table_to_dataframe(in_fc, input_fields, query="", skip_nulls=False, n
     fc_dataframe = pd.DataFrame(np_array, index=object_id_index, columns=input_fields)
     return fc_dataframe
 
+
 @arc_tool_report
-def arcgis_table_to_df(in_fc,input_fields,query=""):
+def arcgis_table_to_df(in_fc, input_fields, query=""):
     """Function will convert an arcgis table into a pandas dataframe with an object ID index, and the selected
         input fields. Uses a da search cursor."""
     OIDFieldName = arcpy.Describe(in_fc).OIDFieldName
     final_fields = [OIDFieldName] + input_fields
-    record_list = [row for row in arcpy.da.SearchCursor(in_fc,final_fields,query)]
+    record_list = [row for row in arcpy.da.SearchCursor(in_fc, final_fields, query)]
     oid_collection = [row[0] for row in record_list]
     fc_dataframe = pd.DataFrame(record_list, index=oid_collection, columns=final_fields)
     return fc_dataframe
-
 
 
 # End do_analysis function
