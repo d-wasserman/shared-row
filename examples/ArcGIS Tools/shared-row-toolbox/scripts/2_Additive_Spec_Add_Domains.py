@@ -29,11 +29,11 @@ from collections import OrderedDict
 import sharedrowlib as srl
 
 
-def add_additive_specification_domains_to_gdb(in_gdb, in_features, csv, prepended_name="srs_additive",
-                                              field_name_col="FieldName",
-                                              domain_desc_col="DomainDescription", field_type_col="FieldType",
-                                              domain_type_col="DomainType", coded_value_col="CodedValues",
-                                              value_descrip_col="ValueDescriptions"):
+def add_additive_specification_coded_domains_to_gdb(in_gdb, in_features, csv, prepended_name="srs_additive",
+                                                    field_name_col="FieldName",
+                                                    domain_desc_col="DomainDescription", field_type_col="FieldType",
+                                                    domain_type_col="DomainType", coded_value_col="CodedValues",
+                                                    value_descrip_col="ValueDescriptions"):
     """This function will add additive shared-row specification domains for categorical fields
      based on a CSV. Uses Pandas.
     :param - in_gdb - input geodatabase to add domains to
@@ -104,6 +104,42 @@ def add_additive_specification_domains_to_gdb(in_gdb, in_features, csv, prepende
         arcpy.AddError("The error occurred on line {0}...".format(tb.tb_lineno))
 
 
+def add_additive_specification_range_domain_to_gdb(in_gdb, in_features, fields, domain_name, field_type="DOUBLE",
+                                                   range_min=0, range_max=25):
+    """This function will add additive shared-row specification domains for categorical fields
+        based on a CSV. Uses Pandas.
+       :param - in_gdb - input geodatabase to add domains to
+       :param - in_features - optional input that is used to assign domains to feature class is chosen.
+       :param - domain_name - name of new range domain
+       :param - field_type - field type used by domains
+       :param - fields - fields to assign domains too
+       :param - range_min - the minimum value allowed by the range domain
+       :param  - range_max - the maximum value allowed by the range domain
+       """
+    try:
+        domain_description = str(domain_name) + "_Range_Domain"
+        try:
+            srl.arc_print("Adding range domain for numeric values...")
+            arcpy.CreateDomain_management(in_gdb, domain_name, domain_description, field_type, "RANGE")
+        except:
+            arcpy.AddWarning("Could not create domain. Either it already exists or some other error...")
+        srl.arc_print("Set min and max values of domains...")
+        arcpy.SetValueForRangeDomain_management(in_gdb, domain_name, range_min, range_max)
+        srl.arc_print("Attempting to assign numeric fields ...")
+        for field in fields:
+            try:
+                if len(arcpy.ListFields(in_features, field)) > 0:
+                    arcpy.AssignDomainToField_management(in_features, field, domain_name)
+            except:
+                arcpy.AddWarning("Could not assign domain to field {0}...".format(field))
+    except Exception as e:
+        srl.arc_print("Tool Script Error!")
+        import traceback, sys
+        tb = sys.exc_info()[2]
+        srl.arc_print("An error occurred on line %i" % tb.tb_lineno)
+        arcpy.AddError("The error occurred on line {0}...".format(tb.tb_lineno))
+
+
 # End do_analysis function
 
 # This test allows the script to be used from the operating
@@ -113,9 +149,20 @@ def add_additive_specification_domains_to_gdb(in_gdb, in_features, csv, prepende
 if __name__ == '__main__':
     # Define input parameterss
     import os
-
     input_geodatabase = arcpy.GetParameterAsText(0)
     input_features = arcpy.GetParameterAsText(1)
     specification_data_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "specification_data")
     additive_domain_csv = os.path.join(specification_data_dir, r"additive_shared_row_domains.csv")
-    add_additive_specification_domains_to_gdb(input_geodatabase, input_features, additive_domain_csv)
+    add_additive_specification_coded_domains_to_gdb(input_geodatabase, input_features, additive_domain_csv)
+    left_through_lanes = ["Left_Through_Lane_{0}".format(i) for i in range(1, 26)]
+    right_through_lanes = ["Right_Through_Lane_{0}".format(i) for i in range(1, 26)]
+    right_through_lanes.reverse()
+    additive_fields_slice_order = ["Left_Sidewalk_Frontage_Zone", "Left_Sidewalk_Through_Zone",
+                                   "Left_Sidewalk_Furniture_Zone", "Left_Bike_Lane", "Left_Bike_Buffer",
+                                   "Left_Parking_Lane"] + left_through_lanes + ["Left_Transit_Lane", "Center_Lane",
+                                                                                "Right_Transit_Lane"] + right_through_lanes + [
+                                      "Right_Parking_Lane",
+                                      "Right_Bike_Buffer", "Right_Bike_Lane", "Right_Sidewalk_Furniture_Zone",
+                                      "Right_Sidewalk_Through_Zone", "Right_Sidewalk_Frontage_Zone", "Off_Street_Width"]
+    add_additive_specification_range_domain_to_gdb(input_geodatabase, input_features, additive_fields_slice_order,
+                                                   "srs_additive_Width_Ranges")
