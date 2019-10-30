@@ -179,7 +179,7 @@ def retrieve_row_values(row, field_names, index_dict):
     for field in field_names:
         index = index_dict.get(field, None)
         if index is None:
-            print("Field could not be retireved. Passing None.")
+            print("Field could not be retrieved. Passing None.")
             value = None
         else:
             value = row[index]
