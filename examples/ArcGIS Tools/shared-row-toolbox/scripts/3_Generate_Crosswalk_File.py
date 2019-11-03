@@ -31,6 +31,20 @@ from collections import OrderedDict
 import sharedrowlib as srl
 
 
+def center_editor_function(insert_cursor, center_width, center_type, shape_length):
+    """Given an insert cursor object, a center_width, shape_length, and center_type - this function will convert additive
+    values into multiple slices with the appropriate tag values associated with them based on the additive
+    specification's relationship to the slice specification.
+    @:param- insert_cursor - cursor to add multiple slices too
+    @:param - center_width - width of the total center allocation space to base approximations on
+    @:param - center_type - type of center allocation
+    @:param - shape_length - used to determine default values -if short enough, some tags are not added. """
+    center_dict = {"end_depth": None, "begin_depth": None, "end_movements_allowed": "left",
+                   "begin_movements_allowed": "left",
+                   "remainder_allocation": None}
+    return None
+
+
 def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type", shp_field_name="Name_Shp",
                         optional_col="Optional", optional_bool=True, validate=False):
     """Add fields to a feature class using arcpy based on the field names, types, shapefile name, and optional
@@ -65,7 +79,7 @@ def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type",
 
 
 def generate_crosswalk_file(in_features, output_features, slice_fields_csv, additive_spec_slice_order,
-                            zone_meta_dict={}, conditional_meta_dict_update_functions = {},
+                            zone_meta_dict={}, conditional_meta_dict_update_functions={},
                             center_allocation_translator={}):
     """This function will add additive shared-row specification domains for categorical fields
      based on a CSV. Uses Pandas.
@@ -80,8 +94,8 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
     of additive meta fields and their corresponding width field as a tuple, and values are a function used to
     conditionally modify the zone_meta_dict. If a meta tag is available, the zone_meta_dict will
     be modified based on that value.
-    :param - center_allocation_translator - some additive attributes for center running features translate into
-    multiple slices (median_with_turn_lane, can become multiple turn lanes and a median).
+    :param - center_allocation_translator - this dictionary of functions manages adding multiple slices from one
+    additive attribute for center running features (median_with_turn_lane, can become multiple turn lanes and a median).
     :return - feature class where each geometry is copied and slices named based on additive specification
     """
     try:
@@ -115,9 +129,9 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
 
                     for field, width in non_zero_width_fields:
                         current_meta_field = str(field) + "_Meta"
-                        if srl.field_exist(in_features,current_meta_field):
+                        if srl.field_exist(in_features, current_meta_field):
                             meta_tag_value = street[additive_dict[current_meta_field]]
-                            zone_meta_dict[field].setdefault("meta", meta_tag_value)
+                            zone_meta_dict[field].setdefault("meta", str({"type": meta_tag_value}))
                         type = zone_meta_dict.get(field, {}).get("type")
                         width = abs(float(width))
                         height = zone_meta_dict.get(field, {}).get("height", 0)
@@ -185,7 +199,7 @@ if __name__ == '__main__':
     left_transit_lane_dict = {"Left_Transit_Lane": {"type": "bus_lane", "direction": "reverse"}}  # meta change?
     right_transit_lane_dict = {"Right_Transit_Lane": {"type": "bus_lane", "direction": "forward"}}  # meta change?
     center_lane_dict = {"Center_Lane": {"type": "median", "height": 15.24, "material": "concrete"}}
-    offstreet_dict = {"Off_Street_Width": {"type": "path", "material": "asphalt","meta" : "off-street facility"}}
+    offstreet_dict = {"Off_Street_Width": {"type": "path", "material": "asphalt", "meta": "off-street facility"}}
     zone_meta_dict.update(left_sidewalk_dicts)
     zone_meta_dict.update(left_drive_dict)
     zone_meta_dict.update(left_bike_lane_dict)
