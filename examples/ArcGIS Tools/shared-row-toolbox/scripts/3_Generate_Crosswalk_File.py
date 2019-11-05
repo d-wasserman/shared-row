@@ -29,20 +29,75 @@ import arcpy
 import pandas as pd
 from collections import OrderedDict
 import sharedrowlib as srl
+import json
 
 
-def center_editor_function(insert_cursor, center_width, center_type, shape_length):
+def center_editor_function(insert_cursor, center_width, center_type, shape, shared_street_id, slice_start=0):
     """Given an insert cursor object, a center_width, shape_length, and center_type - this function will convert additive
     values into multiple slices with the appropriate tag values associated with them based on the additive
     specification's relationship to the slice specification.
     @:param- insert_cursor - cursor to add multiple slices too
     @:param - center_width - width of the total center allocation space to base approximations on
     @:param - center_type - type of center allocation
-    @:param - shape_length - used to determine default values -if short enough, some tags are not added. """
-    center_dict = {"end_depth": None, "begin_depth": None, "end_movements_allowed": "left",
-                   "begin_movements_allowed": "left",
-                   "remainder_allocation": None}
-    return None
+    @:param - shape - geometry object being used
+    @:param - shared_street_id - centerline shared street id
+    @:param - slice_start - the last slice id encountered.
+    @:returns center_boolean, slice_end """
+    center_dict = {"end_depth": None, "end_movements_allowed": "left"}
+    shape_length = shape.getLength(units="METERS")
+    if shape_length > 200:  # 200 meters, split in half up to 400 ft
+        center_dict.update({"end_depth": min([shape_length / 2.0, 121.92])})
+        center_dict.update({"begin_depth": min([shape_length / 2.0, 121.92])})
+        center_dict.update({"begin_movements_allowed": "left"})
+    else:
+        center_dict.update({"end_depth": shape_length})
+    center_set = False
+    if center_type == "turn_lane":
+        # Row is made in order of [geo,ssid,slice_id,type,width,height,direction,material,meta]
+        slice_row = [shape, shared_street_id, slice_start, "turn_lane", center_width, 0, "bidirectional", "asphalt",
+                     json.dumps(center_dict)]
+        insert_cursor.insertRow(slice_row)
+        slice_start = slice_start + 1
+        center_set = True
+    elif center_type == "median_turn_lane":
+        lane_count = int(max([round((center_width - 1) / 3.048, 0), 1]))
+        median_size = min([1.5, .1 * center_width])
+        lane_width = (center_width - median_size) / lane_count
+        center_dict.update({"remainder_allocation": "drive_lane"})
+        center_dict.update({"end_movements_allowed": "left|through|right",
+                            "begin_movements_allowed": "left|through|right"})
+        for i in range(int(lane_count + 1)):
+            if i == lane_count:
+                slice_row = [shape, shared_street_id, slice_start, "median", median_size, 15.24, "bidirectional",
+                             "concrete", None]
+                insert_cursor.insertRow(slice_row)
+                slice_start = slice_start + 1
+            else:
+                # turn lane
+                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, "bidirectional",
+                             "asphalt", json.dumps(center_dict)]
+                insert_cursor.insertRow(slice_row)
+                slice_start = slice_start + 1
+        center_set = True
+    elif center_type == "boulevard":
+        lane_count = int(max([round((center_width - 2) / 3.048, 0), 2]))
+        median_size = min([1, .2 * center_width])
+        lane_width = (center_width - median_size) / lane_count
+        center_dict.update({"remainder_allocation": "median"})
+        for i in range(int(lane_count + 2)):
+            if i == (lane_count + 1) or i == 0:
+                slice_row = [shape, shared_street_id, slice_start, "median", median_size, 15.24, "bidirectional",
+                             "concrete", None]
+                insert_cursor.insertRow(slice_row)
+                slice_start = slice_start + 1
+            else:
+                # turn lane
+                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, "bidirectional",
+                             "asphalt", json.dumps(center_dict)]
+                insert_cursor.insertRow(slice_row)
+                slice_start = slice_start + 1
+        center_set = True
+    return center_set, slice_start
 
 
 def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type", shp_field_name="Name_Shp",
@@ -79,10 +134,9 @@ def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type",
 
 
 def generate_crosswalk_file(in_features, output_features, slice_fields_csv, additive_spec_slice_order,
-                            zone_meta_dict={}, conditional_meta_dict_update_functions={},
-                            center_allocation_translator={}):
+                            zone_meta_dict={}, conditional_meta_dict_update_functions={}):
     """This function will add additive shared-row specification domains for categorical fields
-     based on a CSV. Uses Pandas.
+     based on a CSV. Uses Pandas. Depends on a function center_editor_function near top.
     :param - in_features - feature class that has additive specification fields for cross-walk creation
     :param - output_features - crosswalk feature class with indices indicating slices in an output feature class
     :param - slice_fields_csv - csv with fields to be added for the crosswalk file
@@ -94,8 +148,6 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
     of additive meta fields and their corresponding width field as a tuple, and values are a function used to
     conditionally modify the zone_meta_dict. If a meta tag is available, the zone_meta_dict will
     be modified based on that value.
-    :param - center_allocation_translator - this dictionary of functions manages adding multiple slices from one
-    additive attribute for center running features (median_with_turn_lane, can become multiple turn lanes and a median).
     :return - feature class where each geometry is copied and slices named based on additive specification
     """
     try:
@@ -116,7 +168,6 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
             lineCounter = 0
             for index, street in enumerate(cursor, start=1):
                 try:
-                    segment_rows = []
                     lineCounter += 1
                     linegeo = street[0]
                     additive_slice_values = srl.retrieve_row_values(street, additive_fields_slice_order, additive_dict)
@@ -131,15 +182,21 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
                         current_meta_field = str(field) + "_Meta"
                         if srl.field_exist(in_features, current_meta_field):
                             meta_tag_value = street[additive_dict[current_meta_field]]
-                            zone_meta_dict[field].setdefault("meta", str({"type": meta_tag_value}))
+                            zone_meta_dict[field].setdefault("meta", json.dumps({"type": meta_tag_value}))
+                        if "CENTER" in str(field).upper():
+                            slices_added, slice_id = center_editor_function(insertCursor, width, meta_tag_value,
+                                                                            linegeo, sharedstreetid, slice_id)
+                            if slices_added:  # If slices were added already, continue to next field
+                                continue
+                            else:  # other wise, add slice as normal
+                                pass
                         type = zone_meta_dict.get(field, {}).get("type")
                         width = abs(float(width))
                         height = zone_meta_dict.get(field, {}).get("height", 0)
                         direction = zone_meta_dict.get(field, {}).get("direction", "bidirectional")
                         material = zone_meta_dict.get(field, {}).get("material", "asphalt")
-                        meta = zone_meta_dict.get(field, {}).get("meta")
+                        meta = zone_meta_dict.get(field, json.dumps({})).get("meta")
                         slice_row = [linegeo, sharedstreetid, slice_id, type, width, height, direction, material, meta]
-                        segment_rows.append(slice_row)
                         slice_id += 1
                         insertCursor.insertRow(slice_row)
                     if lineCounter % 500 == 0:
