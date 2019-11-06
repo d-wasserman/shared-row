@@ -104,6 +104,7 @@ def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type",
                         optional_col="Optional", optional_bool=True, validate=False):
     """Add fields to a feature class using arcpy based on the field names, types, shapefile name, and optional
     column in the CSV.
+    :param - in_fc - input feature class to add fields to
     :param - csv_path - path to the csv with fields to add
     :param - field_name_col - name of column with field names
     :param - type_col - name of column with field types
@@ -132,7 +133,6 @@ def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type",
         new_fields.append(fieldname)
     return new_fields
 
-
 def generate_crosswalk_file(in_features, output_features, slice_fields_csv, additive_spec_slice_order,
                             zone_meta_dict={}, conditional_meta_dict_update_functions={}):
     """This function will add additive shared-row specification domains for categorical fields
@@ -147,7 +147,7 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
     :param - conditional_meta_dict_update_functions - nested dictionaries - of key-value pairs where keys are meta
     of additive meta fields and their corresponding width field as a tuple, and values are a function used to
     conditionally modify the zone_meta_dict. If a meta tag is available, the zone_meta_dict will
-    be modified based on that value.
+    be modified based on that value or even rearrange the slice order based on conditionals in the function.
     :return - feature class where each geometry is copied and slices named based on additive specification
     """
     try:
