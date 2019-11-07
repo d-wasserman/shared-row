@@ -211,6 +211,25 @@ def arcgis_table_to_df(in_fc, input_fields, query=""):
     return fc_dataframe
 
 
+# Additive Shared Row Specific Functions
+def get_additive_lane_count(non_zero_width_fields, side_filter=None):
+    """This function will determine the number of lanes on a street given a list of tuples with additive field names
+    and values. If a side is specified ("left" or "right"), it will only return the lane count for that side.
+    :param - non_zero_width_fields - a list of tuples in the form [(field_name,field_value),...]
+    :param - side_filter = either "right" or "left". Filters count based ont hat. """
+    lane_count = 0
+    through_lane_check = "Through_Lane"
+    if side_filter is None:
+        pass
+    elif side_filter == "right":
+        through_lane_check = "Right_" + through_lane_check
+    else:
+        through_lane_check = "Left_" + through_lane_check
+    through_lanes = [slice_tuple for slice_tuple in non_zero_width_fields if
+                     through_lane_check in slice_tuple[0] and slice_tuple[1] > 0]
+    lane_count = len(through_lanes)
+    return lane_count
+
 # End do_analysis function
 
 # This test allows the script to be used from the operating
