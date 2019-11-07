@@ -134,7 +134,7 @@ def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type",
     return new_fields
 
 def generate_crosswalk_file(in_features, output_features, slice_fields_csv, additive_spec_slice_order,
-                            zone_meta_dict={}, conditional_meta_dict_update_functions={}):
+                            zone_meta_dict={}):
     """This function will add additive shared-row specification domains for categorical fields
      based on a CSV. Uses Pandas. Depends on a function center_editor_function near top.
     :param - in_features - feature class that has additive specification fields for cross-walk creation
@@ -144,10 +144,6 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
     :param - zone_meta_dict - nested dictionaries - of key-value pairs where keys are additive width fields, and values
     are dictionaries indicating the values to fill the crosswalk type, heights, directions, etc. It takes the form of:
     {additive_field: {"type":value,"height":0,...}
-    :param - conditional_meta_dict_update_functions - nested dictionaries - of key-value pairs where keys are meta
-    of additive meta fields and their corresponding width field as a tuple, and values are a function used to
-    conditionally modify the zone_meta_dict. If a meta tag is available, the zone_meta_dict will
-    be modified based on that value or even rearrange the slice order based on conditionals in the function.
     :return - feature class where each geometry is copied and slices named based on additive specification
     """
     try:

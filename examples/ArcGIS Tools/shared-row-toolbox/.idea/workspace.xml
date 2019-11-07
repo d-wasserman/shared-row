@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2499">
+            <state relative-caret-position="483">
               <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
               <folding>
                 <element signature="e#1018#1030#0" expanded="true" />
@@ -32,13 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/3_Generate_Crosswalk_File.py">
+        <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="119" column="61" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
-              <folding>
-                <element signature="e#1243#1255#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="135" column="78" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -55,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/sharedrowlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="181" column="47" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+            <state relative-caret-position="211">
+              <caret line="218" column="69" lean-forward="true" selection-start-line="218" selection-start-column="69" selection-end-line="218" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -71,6 +68,8 @@
       <find>index</find>
       <find>get_f_index</find>
       <find>retrive_</find>
+      <find>segment_rows</find>
+      <find>meta</find>
     </findStrings>
     <replaceStrings>
       <replace>srl.arc_</replace>
@@ -98,6 +97,7 @@
         <option value="$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py" />
         <option value="$PROJECT_DIR$/scripts/sharedrowlib.py" />
         <option value="$PROJECT_DIR$/scripts/3_Generate_Crosswalk_File.py" />
+        <option value="$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py" />
       </list>
     </option>
   </component>
@@ -130,6 +130,14 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Github\shared-row-spec\examples\ArcGIS Tools\shared-row-toolbox\scripts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,9 +216,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19114688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19919518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -228,7 +235,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.037558686" />
+      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.038900066" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25955734" />
@@ -327,16 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
-          <folding>
-            <element signature="e#1018#1030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/0_Consolidate_Centerlines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -346,20 +343,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/sharedrowlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="181" column="47" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+        <state relative-caret-position="211">
+          <caret line="218" column="69" lean-forward="true" selection-start-line="218" selection-start-column="69" selection-end-line="218" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/3_Generate_Crosswalk_File.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="119" column="61" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
+        <state relative-caret-position="-1710">
+          <caret line="145" column="50" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
           <folding>
             <element signature="e#1243#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
+          <folding>
+            <element signature="e#1018#1030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="135" column="78" selection-start-line="135" selection-start-column="78" selection-end-line="135" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
