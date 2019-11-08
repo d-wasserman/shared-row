@@ -223,7 +223,7 @@ if __name__ == '__main__':
     input_features = arcpy.GetParameterAsText(0)
     output_features = arcpy.GetParameterAsText(1)
     specification_data_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "specification_data")
-    slice_csv = os.path.join(specification_data_dir, r"slice_shared_row_fields.csv")
+    slice_csv = os.path.join(specification_data_dir, r"crosswalk_shared_row_fields.csv")
     left_through_lanes = ["Left_Through_Lane_{0}".format(i) for i in range(1, 26)]
     right_through_lanes = ["Right_Through_Lane_{0}".format(i) for i in range(1, 26)]
     right_through_lanes.reverse()

@@ -1,0 +1,9 @@
+﻿Name,Name_Shp,Type,Optional
+SharedStreetID,SSID,TEXT,0
+rowindex,rowindex,LONG,0
+type,type,TEXT,0
+width,width,DOUBLE,0
+height,height,DOUBLE,0
+direction,direction,TEXT,0
+material,material,TEXT,0
+meta,meta,TEXT,0
