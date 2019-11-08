@@ -196,10 +196,10 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
                         slice_id += 1
                         insertCursor.insertRow(slice_row)
                     if lineCounter % 500 == 0:
-                        srl.arc_print("Iterated through and split feature " + str(lineCounter) + ".", True)
+                        srl.arc_print("Iterated through feature " + str(lineCounter) + ".", True)
                 except Exception as e:
-                    srl.arc_print("Failed to iterate through and a split feature " + str(lineCounter) + ".", True)
-                    srl.arc_print(e.args[0])
+                    srl.arc_print("Failed to iterate through feature " + str(lineCounter) + ".", True)
+                    arcpy.AddWarning(str(e.args[0]))
             del cursor, insertCursor, fields, pre_fields, lineCounter
         srl.arc_print("Script Complete!")
     except Exception as e:
