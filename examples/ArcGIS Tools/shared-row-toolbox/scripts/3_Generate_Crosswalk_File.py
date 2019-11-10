@@ -117,7 +117,7 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
     try:
         arcpy.env.overwriteOutput = True
         srl.arc_print("Reading input features...")
-        pre_fields = [f.name for f in arcpy.ListFields(input_features) if f.type not in ["OID"] and f.name.lower()
+        pre_fields = [f.name for f in arcpy.ListFields(in_features) if f.type not in ["OID"] and f.name.lower()
                       not in ["shape_area", "shape_length"]]
         fields = ["SHAPE@"] + pre_fields
         cursor = arcpy.da.SearchCursor(in_features, fields)
