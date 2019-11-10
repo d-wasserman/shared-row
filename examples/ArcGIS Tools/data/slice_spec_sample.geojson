@@ -1,0 +1,1353 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006356.3994750977,
+            2118504.7650756836
+          ],
+          [
+            6006036.3233032227,
+            2118460.4993286133
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 1,
+        "sharedstreetid" : "1",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005332.1663208008,
+            2118880.9180908203
+          ],
+          [
+            6005297.7645263672,
+            2118876.1267089844
+          ],
+          [
+            6005032.4326782227,
+            2118839.2321166992
+          ],
+          [
+            6004882.796875,
+            2118818.3856811523
+          ],
+          [
+            6004855.9244995117,
+            2118814.3864746094
+          ],
+          [
+            6004830.3963012695,
+            2118811.0880737305
+          ],
+          [
+            6004407.5148925781,
+            2118752.279296875
+          ],
+          [
+            6004379.3145141602,
+            2118748.3444824219
+          ],
+          [
+            6004353.4622802734,
+            2118744.7620849609
+          ],
+          [
+            6004032.9331054688,
+            2118699.6188964844
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 2,
+        "sharedstreetid" : "10",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 121.92, \\\"end_movements_allowed\\\": \\\"left\\\", \\\"begin_depth\\\": 121.92, \\\"begin_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"paint\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005714.4124755859,
+            2119628.5314941406
+          ],
+          [
+            6005718.1566772461,
+            2119600.819519043
+          ],
+          [
+            6005736.0181274414,
+            2119474.4650878906
+          ],
+          [
+            6005743.0297241211,
+            2119424.4337158203
+          ],
+          [
+            6005758.1231079102,
+            2119315.7459106445
+          ],
+          [
+            6005762.0261230469,
+            2119287.8723144531
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 3,
+        "sharedstreetid" : "11",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006285.4902954102,
+            2119013.0778808594
+          ],
+          [
+            6006257.5817260742,
+            2119009.2443237305
+          ],
+          [
+            6005863.2908935547,
+            2118954.7789306641
+          ],
+          [
+            6005809.4603271484,
+            2118947.3408813477
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 4,
+        "sharedstreetid" : "12",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.0,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            5999552.637878418,
+            2118424.3076782227
+          ],
+          [
+            6000029.6204833984,
+            2118490.5853271484
+          ],
+          [
+            6000481.6455078125,
+            2118553.3826904297
+          ],
+          [
+            6000512.3970947266,
+            2118557.6608886719
+          ],
+          [
+            6000544.0759277344,
+            2118562.0656738281
+          ],
+          [
+            6000995.6066894531,
+            2118624.8458862305
+          ],
+          [
+            6001472.928894043,
+            2118691.1781005859
+          ],
+          [
+            6001921.7604980469,
+            2118753.6287231445
+          ],
+          [
+            6001949.3811035156,
+            2118757.463684082
+          ],
+          [
+            6001975.4938964844,
+            2118761.0748901367
+          ],
+          [
+            6002272.6259155273,
+            2118802.3803100586
+          ],
+          [
+            6002309.7238769531,
+            2118807.5490722656
+          ],
+          [
+            6002397.4260864258,
+            2118819.7565307617
+          ],
+          [
+            6002425.7713012695,
+            2118823.6859130859
+          ],
+          [
+            6002453.3048706055,
+            2118827.5230712891
+          ],
+          [
+            6002530.2830810547,
+            2118838.2407226563
+          ],
+          [
+            6002594.1320800781,
+            2118847.1179199219
+          ],
+          [
+            6002875.6975097656,
+            2118886.2388916016
+          ],
+          [
+            6002902.2749023438,
+            2118889.9505004883
+          ],
+          [
+            6002928.8811035156,
+            2118893.6619262695
+          ],
+          [
+            6003352.7211303711,
+            2118952.6102905273
+          ],
+          [
+            6003379.095703125,
+            2118956.2902832031
+          ],
+          [
+            6003406.3098754883,
+            2118960.0623168945
+          ],
+          [
+            6003855.7683105469,
+            2119022.6044921875
+          ],
+          [
+            6003984.9152832031,
+            2119040.5562744141
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 5,
+        "sharedstreetid" : "13",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6003984.9152832031,
+            2119040.5562744141
+          ],
+          [
+            6004305.919128418,
+            2119085.1768798828
+          ],
+          [
+            6004331.8004760742,
+            2119088.794921875
+          ],
+          [
+            6004358.9852905273,
+            2119092.5682983398
+          ],
+          [
+            6004781.6306762695,
+            2119151.3811035156
+          ],
+          [
+            6004809.1926879883,
+            2119155.2202758789
+          ],
+          [
+            6004835.2180786133,
+            2119158.8361206055
+          ],
+          [
+            6005052.9312744141,
+            2119189.1704711914
+          ],
+          [
+            6005254.8356933594,
+            2119216.662902832
+          ],
+          [
+            6005284.7542724609,
+            2119221.2915039063
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 6,
+        "sharedstreetid" : "14",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005284.7542724609,
+            2119221.2915039063
+          ],
+          [
+            6005314.7902832031,
+            2119225.9904785156
+          ],
+          [
+            6005418.1425170898,
+            2119240.2697143555
+          ],
+          [
+            6005709.8903198242,
+            2119280.5775146484
+          ],
+          [
+            6005762.0261230469,
+            2119287.8723144531
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 7,
+        "sharedstreetid" : "15",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 146.89314298754255, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6007190.7749023438,
+            2119494.7230834961
+          ],
+          [
+            6006751.7797241211,
+            2119434.2415161133
+          ],
+          [
+            6006715.2880859375,
+            2119423.3358764648
+          ],
+          [
+            6006681.1232910156,
+            2119413.1477050781
+          ],
+          [
+            6006397.3831176758,
+            2119374.4692993164
+          ],
+          [
+            6006267.2349243164,
+            2119356.7474975586
+          ],
+          [
+            6006238.0819091797,
+            2119352.7938842773
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 8,
+        "sharedstreetid" : "16",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006238.0819091797,
+            2119352.7938842773
+          ],
+          [
+            6006210.7827148438,
+            2119349.0573120117
+          ],
+          [
+            6006090.3433227539,
+            2119332.6668701172
+          ],
+          [
+            6005816.0776977539,
+            2119295.2924804688
+          ],
+          [
+            6005762.0261230469,
+            2119287.8723144531
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 9,
+        "sharedstreetid" : "17",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 146.45550107738347, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6007715.4171142578,
+            2119219.3032836914
+          ],
+          [
+            6007476.6436767578,
+            2119186.2843017578
+          ],
+          [
+            6007243.9561157227,
+            2119154.1253051758
+          ],
+          [
+            6007233.6677246094,
+            2119152.6975097656
+          ],
+          [
+            6006938.9309082031,
+            2119111.9442749023
+          ],
+          [
+            6006863.6091308594,
+            2119101.5443115234
+          ],
+          [
+            6006787.9680786133,
+            2119091.078125
+          ],
+          [
+            6006762.5834960938,
+            2119083.4774780273
+          ],
+          [
+            6006736.4088745117,
+            2119075.4196777344
+          ],
+          [
+            6006313.7763061523,
+            2119017.012878418
+          ],
+          [
+            6006285.4902954102,
+            2119013.0778808594
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 10,
+        "sharedstreetid" : "18",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005833.7385253906,
+            2118772.9555053711
+          ],
+          [
+            6005853.1331176758,
+            2118633.7185058594
+          ],
+          [
+            6005856.888671875,
+            2118606.6970825195
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 11,
+        "sharedstreetid" : "19",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 51.16811037220283, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006332.9721069336,
+            2118672.6685180664
+          ],
+          [
+            6005910.7927246094,
+            2118614.1857299805
+          ],
+          [
+            6005856.888671875,
+            2118606.6970825195
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 12,
+        "sharedstreetid" : "2",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005762.0261230469,
+            2119287.8723144531
+          ],
+          [
+            6005762.0502929688,
+            2119287.6970825195
+          ],
+          [
+            6005765.6815185547,
+            2119262.0913085938
+          ],
+          [
+            6005805.4340820313,
+            2118975.7503051758
+          ],
+          [
+            6005809.4603271484,
+            2118947.3408813477
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 13,
+        "sharedstreetid" : "20",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005809.4603271484,
+            2118947.3408813477
+          ],
+          [
+            6005809.4691162109,
+            2118947.2778930664
+          ],
+          [
+            6005813.705078125,
+            2118917.0559082031
+          ],
+          [
+            6005827.4014892578,
+            2118818.4671020508
+          ],
+          [
+            6005833.7385253906,
+            2118772.9555053711
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 14,
+        "sharedstreetid" : "21",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005856.888671875,
+            2118606.6970825195
+          ],
+          [
+            6005856.8892822266,
+            2118606.6926879883
+          ],
+          [
+            6005860.5690917969,
+            2118580.219909668
+          ],
+          [
+            6005875.3170776367,
+            2118474.0316772461
+          ],
+          [
+            6005900.1369018555,
+            2118295.5308837891
+          ],
+          [
+            6005904.2916870117,
+            2118265.7982788086
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 15,
+        "sharedstreetid" : "22",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005769.287109375,
+            2118766.7086791992
+          ],
+          [
+            6005693.0894775391,
+            2118755.9290771484
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 16,
+        "sharedstreetid" : "23",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005833.7385253906,
+            2118772.9555053711
+          ],
+          [
+            6005769.287109375,
+            2118766.7086791992
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 17,
+        "sharedstreetid" : "24",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005305.8356933594,
+            2118771.2164916992
+          ],
+          [
+            6005237.4553222656,
+            2118762.5718994141
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 18,
+        "sharedstreetid" : "25",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 21.009772979933466, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005346.6685180664,
+            2118776.7496948242
+          ],
+          [
+            6005305.8356933594,
+            2118771.2164916992
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 19,
+        "sharedstreetid" : "26",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005332.803527832,
+            2118593.1143188477
+          ],
+          [
+            6005262.0516967773,
+            2118582.9885253906
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 20,
+        "sharedstreetid" : "27",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 21.78646405257243, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005371.4733276367,
+            2118598.8377075195
+          ],
+          [
+            6005332.803527832,
+            2118593.1143188477
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 21,
+        "sharedstreetid" : "28",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"post\\\"}\"},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6008240.3936767578,
+            2118951.2445068359
+          ],
+          [
+            6007762.6135253906,
+            2118879.6311035156
+          ],
+          [
+            6007589.5328979492,
+            2118855.4625244141
+          ],
+          [
+            6007291.2496948242,
+            2118813.830871582
+          ],
+          [
+            6007281.1641235352,
+            2118812.4353027344
+          ],
+          [
+            6007257.8331298828,
+            2118809.1627197266
+          ],
+          [
+            6006986.5018920898,
+            2118771.279296875
+          ],
+          [
+            6006843.3588867188,
+            2118751.3087158203
+          ],
+          [
+            6006810.055480957,
+            2118742.3045043945
+          ],
+          [
+            6006782.1312866211,
+            2118734.9016723633
+          ],
+          [
+            6006332.9721069336,
+            2118672.6685180664
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 22,
+        "sharedstreetid" : "29",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006428.7186889648,
+            2117986.1528930664
+          ],
+          [
+            6006418.4431152344,
+            2118059.9323120117
+          ],
+          [
+            6006380.4302978516,
+            2118332.4420776367
+          ],
+          [
+            6006356.3994750977,
+            2118504.7650756836
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 23,
+        "sharedstreetid" : "3",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 159.61406617628649, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006332.9721069336,
+            2118672.6685180664
+          ],
+          [
+            6006289.1912841797,
+            2118986.4517211914
+          ],
+          [
+            6006285.4902954102,
+            2119013.0778808594
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 24,
+        "sharedstreetid" : "30",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"post\\\"}\"},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005612.2614746094,
+            2116873.2592773438
+          ],
+          [
+            6005608.0571289063,
+            2116900.6973266602
+          ],
+          [
+            6005570.8101196289,
+            2117167.9844970703
+          ],
+          [
+            6005567.629699707,
+            2117196.020324707
+          ],
+          [
+            6005563.4841308594,
+            2117220.6890869141
+          ],
+          [
+            6005526.1130981445,
+            2117488.9260864258
+          ],
+          [
+            6005522.4860839844,
+            2117514.9317016602
+          ],
+          [
+            6005518.6082763672,
+            2117542.7633056641
+          ],
+          [
+            6005480.4074707031,
+            2117816.9904785156
+          ],
+          [
+            6005475.3430786133,
+            2117853.1868896484
+          ],
+          [
+            6005470.3599243164,
+            2117889.0900878906
+          ],
+          [
+            6005430.545715332,
+            2118174.7495117188
+          ],
+          [
+            6005427.205078125,
+            2118199.1834716797
+          ],
+          [
+            6005423.1168823242,
+            2118228.0394897461
+          ],
+          [
+            6005383.1817016602,
+            2118514.7576904297
+          ],
+          [
+            6005379.6298828125,
+            2118540.1793212891
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 25,
+        "sharedstreetid" : "31",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"post\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005379.6298828125,
+            2118540.1793212891
+          ],
+          [
+            6005375.6787109375,
+            2118568.6680908203
+          ],
+          [
+            6005371.4733276367,
+            2118598.8377075195
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 26,
+        "sharedstreetid" : "32",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.0,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005371.4733276367,
+            2118598.8377075195
+          ],
+          [
+            6005346.6685180664,
+            2118776.7496948242
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 27,
+        "sharedstreetid" : "33",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005346.6685180664,
+            2118776.7496948242
+          ],
+          [
+            6005335.9177246094,
+            2118853.962890625
+          ],
+          [
+            6005332.1663208008,
+            2118880.9180908203
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 28,
+        "sharedstreetid" : "34",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005332.1663208008,
+            2118880.9180908203
+          ],
+          [
+            6005328.1384887695,
+            2118909.8817138672
+          ],
+          [
+            6005313.5571289063,
+            2119014.4158935547
+          ],
+          [
+            6005288.5551147461,
+            2119193.9348754883
+          ],
+          [
+            6005284.7542724609,
+            2119221.2915039063
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 29,
+        "sharedstreetid" : "35",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 104.75503168212916, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005284.7542724609,
+            2119221.2915039063
+          ],
+          [
+            6005280.8259277344,
+            2119249.4520874023
+          ],
+          [
+            6005240.5654907227,
+            2119538.4722900391
+          ],
+          [
+            6005237.2409057617,
+            2119562.2864990234
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 30,
+        "sharedstreetid" : "36",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"paint\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005465.6007080078,
+            2118899.5142822266
+          ],
+          [
+            6005362.1633300781,
+            2118885.1080932617
+          ],
+          [
+            6005332.1663208008,
+            2118880.9180908203
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 31,
+        "sharedstreetid" : "37",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"paint\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005809.4603271484,
+            2118947.3408813477
+          ],
+          [
+            6005752.9578857422,
+            2118939.4931030273
+          ],
+          [
+            6005642.8551025391,
+            2118924.1666870117
+          ],
+          [
+            6005465.6007080078,
+            2118899.5142822266
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 32,
+        "sharedstreetid" : "38",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.06,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 105.82498626012202, \\\"end_movements_allowed\\\": \\\"left\\\", \\\"remainder_allocation\\\": \\\"drive_lane\\\", \\\"begin_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"median\",\"width\":0.34,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"paint\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006356.3994750977,
+            2118504.7650756836
+          ],
+          [
+            6006332.9721069336,
+            2118672.6685180664
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 33,
+        "sharedstreetid" : "4",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.0,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006285.4902954102,
+            2119013.0778808594
+          ],
+          [
+            6006281.6364746094,
+            2119040.7269287109
+          ],
+          [
+            6006241.5872802734,
+            2119327.8837280273
+          ],
+          [
+            6006238.0819091797,
+            2119352.7938842773
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 34,
+        "sharedstreetid" : "5",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.0,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 104.55638917987822, \\\"end_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6006238.0819091797,
+            2119352.7938842773
+          ],
+          [
+            6006234.2813110352,
+            2119380.1870727539
+          ],
+          [
+            6006194.0819091797,
+            2119668.4398803711
+          ],
+          [
+            6006190.9091186523,
+            2119691.2308959961
+          ],
+          [
+            6006186.6253051758,
+            2119721.838684082
+          ],
+          [
+            6006146.9813232422,
+            2120006.1101074219
+          ],
+          [
+            6006142.8978881836,
+            2120035.2205200195
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 35,
+        "sharedstreetid" : "6",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 105.01621950601896, \\\"end_movements_allowed\\\": \\\"left\\\", \\\"begin_depth\\\": 105.01621950601896, \\\"begin_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005856.888671875,
+            2118606.6970825195
+          ],
+          [
+            6005802.5432739258,
+            2118599.1118774414
+          ],
+          [
+            6005513.0576782227,
+            2118558.7694702148
+          ],
+          [
+            6005411.3074951172,
+            2118544.5897216797
+          ],
+          [
+            6005379.6298828125,
+            2118540.1793212891
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 36,
+        "sharedstreetid" : "7",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"buffer\",\"width\":1.0,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"post\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"median\",\"width\":3.4,\"height\":15.24,\"direction\":\"bidirectional\",\"material\":\"concrete\",\"meta\":\"{\\\"type\\\": \\\"median\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005379.6298828125,
+            2118540.1793212891
+          ],
+          [
+            6005349.5458984375,
+            2118535.9907226563
+          ],
+          [
+            6005270.3565063477,
+            2118524.9598999023
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 37,
+        "sharedstreetid" : "8",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            6005270.3565063477,
+            2118524.9598999023
+          ],
+          [
+            6004931.0938720703,
+            2118477.7014770508
+          ],
+          [
+            6004903.3519287109,
+            2118473.5747070313
+          ],
+          [
+            6004876.2869262695,
+            2118470.0531005859
+          ],
+          [
+            6004454.2966918945,
+            2118411.2612915039
+          ],
+          [
+            6004426.9078979492,
+            2118407.4555053711
+          ]
+        ]
+      },
+      "properties" : {
+        "OID" : 38,
+        "sharedstreetid" : "9",
+        "slices" : "[{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"reverse\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"reverse\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"turn_lane\",\"width\":3.4,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"end_depth\\\": 121.92, \\\"end_movements_allowed\\\": \\\"left\\\", \\\"begin_depth\\\": 121.92, \\\"begin_movements_allowed\\\": \\\"left\\\"}\"},{\"type\":\"drive_lane\",\"width\":3.1,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"drive_lane\",\"width\":3.11,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"auto_parking\",\"width\":2.45,\"height\":0.0,\"direction\":\"bidirectional\",\"material\":\"asphalt\",\"meta\":\"{\\\"type\\\": \\\"parking\\\"}\"},{\"type\":\"bike_lane\",\"width\":1.7,\"height\":0.0,\"direction\":\"forward\",\"material\":\"asphalt\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":1.3,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null},{\"type\":\"sidewalk\",\"width\":2.0,\"height\":15.24,\"direction\":\"forward\",\"material\":\"concrete\",\"meta\":null}]"
+      }
+    }
+  ]
+}
