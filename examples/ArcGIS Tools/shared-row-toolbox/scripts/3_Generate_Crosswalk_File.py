@@ -101,40 +101,6 @@ def center_editor_function(insert_cursor, center_width, center_type, shape, shar
         center_set = True
     return center_set, slice_start
 
-
-def add_fields_from_csv(in_fc, csv_path, field_name_col="Name", type_col="Type", shp_field_name="Name_Shp",
-                        optional_col="Optional", optional_bool=True, validate=False):
-    """Add fields to a feature class using arcpy based on the field names, types, shapefile name, and optional
-    column in the CSV.
-    :param - in_fc - input feature class to add fields to
-    :param - csv_path - path to the csv with fields to add
-    :param - field_name_col - name of column with field names
-    :param - type_col - name of column with field types
-    :param - shp_field_name - name of the field to use if the file is a shapefile
-    :param - optional_col - the column identify if a field is optional with a 1 and a 0 for not. 
-    :param - optional_bool - if true add optional fields
-    :param - validate- optional boolean controls whether field names are validated
-     :return - list of fields added"""
-    workspace = os.path.dirname(in_fc)
-    df = pd.read_csv(csv_path)
-    new_fields = []
-    for index, row in df.iterrows():
-        raw_field = str(row[field_name_col])
-        if validate:
-            fieldname = arcpy.ValidateFieldName(raw_field, workspace)
-        else:
-            fieldname = raw_field
-        if shp_field_name and ".shp" in in_fc:
-            fieldname = str(row[shp_field_name])
-        if not optional_bool:
-            if row[optional_col] == 1:
-                print("Not adding optional field.")
-                continue
-        field_type = row[type_col]
-        srl.add_new_field(in_fc, fieldname, field_type)
-        new_fields.append(fieldname)
-    return new_fields
-
 def generate_crosswalk_file(in_features, output_features, slice_fields_csv, additive_spec_slice_order,
                             zone_meta_dict={}):
     """This function will add additive shared-row specification domains for categorical fields
@@ -158,7 +124,7 @@ def generate_crosswalk_file(in_features, output_features, slice_fields_csv, addi
         output_path, output_name = os.path.split(output_features)
         arcpy.CreateFeatureclass_management(output_path, output_name, "POLYLINE")
         srl.arc_print("Adding fields to crosswalk...")
-        crosswalk_fields = add_fields_from_csv(output_features, slice_fields_csv)
+        crosswalk_fields = srl.add_fields_from_csv(output_features, slice_fields_csv)
         crosswalk_fields = ["SHAPE@"] + crosswalk_fields
         additive_dict = srl.construct_index_dict(fields)
         with arcpy.da.InsertCursor(output_features, crosswalk_fields) as insertCursor:
