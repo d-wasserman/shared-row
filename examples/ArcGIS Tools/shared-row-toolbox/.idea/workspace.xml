@@ -9,7 +9,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+              <folding>
+                <element signature="e#997#1009#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -53,8 +66,8 @@
         <option value="$PROJECT_DIR$/../../../../FeatureLineSplit/Scripts/featurelinelib.py" />
         <option value="$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py" />
         <option value="$PROJECT_DIR$/scripts/sharedrowlib.py" />
-        <option value="$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py" />
         <option value="$PROJECT_DIR$/scripts/3_Generate_Crosswalk_File.py" />
+        <option value="$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py" />
       </list>
     </option>
   </component>
@@ -68,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +213,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20724346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,16 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="101" column="73" lean-forward="true" selection-start-line="101" selection-start-column="73" selection-end-line="101" selection-end-column="73" />
-          <folding>
-            <element signature="e#997#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -357,6 +360,16 @@
           <caret line="190" column="18" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="18" />
           <folding>
             <element signature="e#1243#1255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="e#997#1009#0" expanded="true" />
           </folding>
         </state>
       </provider>

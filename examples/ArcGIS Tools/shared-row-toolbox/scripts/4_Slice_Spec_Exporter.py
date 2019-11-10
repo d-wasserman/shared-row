@@ -31,7 +31,7 @@ import json
 
 def generate_slice_spec_geojson_file(input_features, sharedstreetid, slice_fields_csv, output_geojson):
     """This function will create a slice specification compliant geojson file.
-    :param - in_features - feature class that has all of the fields from the crosswalk file
+    :param - input_features - feature class that has all of the fields from the crosswalk file
     :param - sharedstreetid - unique street ID as defined by SharedStreets.
     :param - slice_fields_csv - the csv with fields required for the slice specification compliant geojson.
     :param - output_geojson - output slice based geojson where each line geometry has slices as properties
@@ -47,8 +47,9 @@ def generate_slice_spec_geojson_file(input_features, sharedstreetid, slice_field
         fields = ["SHAPE@"] + pre_fields
         cw_df = srl.arcgis_table_to_df(input_features, fields)
         cw_groups = cw_df.groupby(sharedstreetid)
+        sr = arcpy.Describe(input_features).spatialReference
         output_path, output_name = os.path.split(output_temp_features)
-        arcpy.CreateFeatureclass_management(output_path, output_name, "POLYLINE")
+        arcpy.CreateFeatureclass_management(output_path, output_name, "POLYLINE", spatial_reference=sr)
         srl.arc_print("Adding fields to intermediate features...")
         slice_fields = srl.add_fields_from_csv(output_temp_features, slice_fields_csv)
         slice_fields = ["SHAPE@"] + slice_fields
@@ -59,12 +60,10 @@ def generate_slice_spec_geojson_file(input_features, sharedstreetid, slice_field
                 lineCounter += 1
                 try:
                     shape = street_group["SHAPE@"].iloc[0]
-                    srl.arc_print(shape)
                     cw_fields = ["type", "width", "height", "direction", "material", "meta"]
                     slice_group = street_group[cw_fields]
 
                     json_slices = slice_group.to_json(orient="records")
-                    srl.arc_print(json_slices)
                     slice_row = [shape, street_id, json_slices]
                     insertCursor.insertRow(slice_row)
                     if lineCounter % 500 == 0:
@@ -74,8 +73,9 @@ def generate_slice_spec_geojson_file(input_features, sharedstreetid, slice_field
                     arcpy.AddWarning(str(e.args[0]))
             del insertCursor, fields, pre_fields, lineCounter
         srl.arc_print("Exporting intermediate feature class to geojson...")
-        arcpy.FeaturesToJSON_conversion(output_temp_features, output_geojson, format_json=True, geoJSON=True,
-                                        outputToWGS84=True, use_field_alias=True)
+        arcpy.FeaturesToJSON_conversion(output_temp_features, output_geojson, format_json="FORMATTED",
+                                        geoJSON="GEOJSON",
+                                        outputToWGS84="WGS84", use_field_alias="USE_FIELD_ALIAS")
         srl.arc_print("Script Complete!")
     except Exception as e:
         srl.arc_print("Tool Script Error!")
