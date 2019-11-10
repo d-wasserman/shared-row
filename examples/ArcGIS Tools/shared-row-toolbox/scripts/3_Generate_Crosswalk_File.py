@@ -45,16 +45,18 @@ def center_editor_function(insert_cursor, center_width, center_type, shape, shar
     @:returns center_boolean, slice_end """
     center_dict = {"end_depth": None, "end_movements_allowed": "left"}
     shape_length = shape.getLength(units="METERS")
-    if shape_length > 200:  # 200 meters, split in half up to 400 ft
+    dist_threshold = shape_length > 200
+    if dist_threshold:  # 200 meters, split in half up to 400 ft
         center_dict.update({"end_depth": min([shape_length / 2.0, 121.92])})
         center_dict.update({"begin_depth": min([shape_length / 2.0, 121.92])})
         center_dict.update({"begin_movements_allowed": "left"})
     else:
         center_dict.update({"end_depth": shape_length})
+    direction = "bidirectional" if dist_threshold else "forward"
     center_set = False
     if center_type == "turn_lane":
         # Row is made in order of [geo,ssid,slice_id,type,width,height,direction,material,meta]
-        slice_row = [shape, shared_street_id, slice_start, "turn_lane", center_width, 0, "bidirectional", "asphalt",
+        slice_row = [shape, shared_street_id, slice_start, "turn_lane", center_width, 0, direction, "asphalt",
                      json.dumps(center_dict)]
         insert_cursor.insertRow(slice_row)
         slice_start = slice_start + 1
@@ -64,8 +66,8 @@ def center_editor_function(insert_cursor, center_width, center_type, shape, shar
         median_size = min([1.5, .1 * center_width])
         lane_width = (center_width - median_size) / lane_count
         center_dict.update({"remainder_allocation": "drive_lane"})
-        center_dict.update({"end_movements_allowed": "left|through|right",
-                            "begin_movements_allowed": "left|through|right"})
+        center_dict.update({"end_movements_allowed": "left",
+                            "begin_movements_allowed": "left"})
         for i in range(int(lane_count + 1)):
             if i == lane_count:
                 slice_row = [shape, shared_street_id, slice_start, "median", median_size, 15.24, "bidirectional",
@@ -74,7 +76,7 @@ def center_editor_function(insert_cursor, center_width, center_type, shape, shar
                 slice_start = slice_start + 1
             else:
                 # turn lane
-                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, "bidirectional",
+                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, direction,
                              "asphalt", json.dumps(center_dict)]
                 insert_cursor.insertRow(slice_row)
                 slice_start = slice_start + 1
@@ -92,7 +94,7 @@ def center_editor_function(insert_cursor, center_width, center_type, shape, shar
                 slice_start = slice_start + 1
             else:
                 # turn lane
-                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, "bidirectional",
+                slice_row = [shape, shared_street_id, slice_start, "turn_lane", lane_width, 0, direction,
                              "asphalt", json.dumps(center_dict)]
                 insert_cursor.insertRow(slice_row)
                 slice_start = slice_start + 1
