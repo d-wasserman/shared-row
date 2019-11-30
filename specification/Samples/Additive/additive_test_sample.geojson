@@ -1,0 +1,3443 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42207349975661,
+            37.797374200388788
+          ],
+          [
+            -122.42317789929525,
+            37.797234600367311
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "osm_id" : "8917340",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Bonita Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 323.12254420204374,
+        "CenterID" : 1,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Bonita Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 3.1000000000000001,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42216649966024,
+            37.797833899807848
+          ],
+          [
+            -122.42362319974883,
+            37.797649499395604
+          ],
+          [
+            -122.42380919000912,
+            37.797625895040625
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "osm_id" : "27043588",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Green Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 480.63248956334314,
+        "CenterID" : 2,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Green Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42178640043385,
+            37.795954300414273
+          ],
+          [
+            -122.42182719922894,
+            37.796156300592422
+          ],
+          [
+            -122.42197809918903,
+            37.796902400647461
+          ],
+          [
+            -122.42207349975661,
+            37.797374200388788
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "osm_id" : "27050839",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Polk Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 523.63022717854267,
+        "CenterID" : 3,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Polk Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42207349975661,
+            37.797374200388788
+          ],
+          [
+            -122.42216649966024,
+            37.797833899807848
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "osm_id" : "27050839",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Polk Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 169.53006375612108,
+        "CenterID" : 4,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Polk Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.4223549996122,
+            37.798765899840056
+          ],
+          [
+            -122.42237030012281,
+            37.79884159933119
+          ],
+          [
+            -122.42252929908113,
+            37.799627800259572
+          ],
+          [
+            -122.42254320068004,
+            37.799695999194128
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "osm_id" : "28738271",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Polk Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 343.00791359090113,
+        "CenterID" : 5,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Polk Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42254320068004,
+            37.799695999194128
+          ],
+          [
+            -122.42255829948594,
+            37.799770999896815
+          ],
+          [
+            -122.42271790030992,
+            37.800560200742844
+          ],
+          [
+            -122.42273050037987,
+            37.800622599929468
+          ],
+          [
+            -122.42274750044203,
+            37.800706399695599
+          ],
+          [
+            -122.42290490007565,
+            37.801484699877577
+          ],
+          [
+            -122.42292110036965,
+            37.80156439951304
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "osm_id" : "28738271",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Polk Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 689.03288221822629,
+        "CenterID" : 6,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Polk Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42380919000912,
+            37.797625895040625
+          ],
+          [
+            -122.42399670018705,
+            37.797601999733388
+          ],
+          [
+            -122.42499552754636,
+            37.797474881869661
+          ],
+          [
+            -122.42534660048166,
+            37.797430199823928
+          ],
+          [
+            -122.4254558998545,
+            37.797416300180252
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 7,
+        "osm_id" : "85644912",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Green Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 481.87205784807719,
+        "CenterID" : 7,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Green Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 1,
+        "Left_Bike_Buffer_Meta" : "post",
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.4254558998545,
+            37.797416300180252
+          ],
+          [
+            -122.42555969991254,
+            37.79740309945484
+          ],
+          [
+            -122.42583293070093,
+            37.797368336877788
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 8,
+        "osm_id" : "85644912",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Green Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 110.32818595152762,
+        "CenterID" : 8,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Green Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42583293070093,
+            37.797368336877788
+          ],
+          [
+            -122.4270034993266,
+            37.797219399374448
+          ],
+          [
+            -122.42709919983066,
+            37.797206499971864
+          ],
+          [
+            -122.42719260025899,
+            37.797195299922208
+          ],
+          [
+            -122.42864859939297,
+            37.797009999520064
+          ],
+          [
+            -122.42874309956518,
+            37.796997999794719
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 9,
+        "osm_id" : "85644912",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Green Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 851.59643749848613,
+        "CenterID" : 9,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Green Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42564439991153,
+            37.798349200501072
+          ],
+          [
+            -122.42576309959136,
+            37.79833410078222
+          ],
+          [
+            -122.42667859996997,
+            37.798217800415102
+          ],
+          [
+            -122.42719489915422,
+            37.79815210057302
+          ],
+          [
+            -122.4272876003112,
+            37.798139599728032
+          ],
+          [
+            -122.42737570022715,
+            37.798129099910788
+          ],
+          [
+            -122.42883479936765,
+            37.797943700002762
+          ],
+          [
+            -122.42893210013828,
+            37.797931300160585
+          ],
+          [
+            -122.42902130094532,
+            37.797920000645306
+          ],
+          [
+            -122.43012720068837,
+            37.797777900189395
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 10,
+        "osm_id" : "85644929",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Union Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 1311.8246502506738,
+        "CenterID" : 10,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Union Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 1,
+        "Right_Bike_Buffer_Meta" : "paint",
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42437491303502,
+            37.800423548098372
+          ],
+          [
+            -122.42435998486229,
+            37.800347669741733
+          ],
+          [
+            -122.42428918519009,
+            37.80000174131397
+          ],
+          [
+            -122.4242613625257,
+            37.799864763743557
+          ],
+          [
+            -122.42420139931929,
+            37.799567187009906
+          ],
+          [
+            -122.42418591050772,
+            37.799490873474248
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 11,
+        "osm_id" : "85644931",
+        "code" : 5112,
+        "fclass" : "trunk",
+        "name" : "Van Ness Avenue",
+        "ref" : "US 101",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 343.97092584631912,
+        "CenterID" : 11,
+        "sum_lanes" : 4,
+        "mean_maxspeed" : 40,
+        "first_name" : "Van Ness Avenue",
+        "concat_fclass" : "trunk;trunk",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.4223549996122,
+            37.798765899840056
+          ],
+          [
+            -122.42245129933023,
+            37.798753799274365
+          ],
+          [
+            -122.42381179983767,
+            37.798582000468279
+          ],
+          [
+            -122.42399754166739,
+            37.798558538697357
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 12,
+        "osm_id" : "162931993",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Union Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 480.54742149808328,
+        "CenterID" : 12,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Union Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.44561040034375,
+            37.79676719995831
+          ],
+          [
+            -122.44396470039869,
+            37.796976400178984
+          ],
+          [
+            -122.44240510058988,
+            37.797174599839295
+          ],
+          [
+            -122.44229900005287,
+            37.797188099369819
+          ],
+          [
+            -122.44218970036388,
+            37.797201999365143
+          ],
+          [
+            -122.44063179951992,
+            37.797400099664436
+          ],
+          [
+            -122.43898490046716,
+            37.797609400147891
+          ],
+          [
+            -122.43743629982899,
+            37.797806400195888
+          ],
+          [
+            -122.43734099949779,
+            37.797818500245221
+          ],
+          [
+            -122.4372509007523,
+            37.797829900134509
+          ],
+          [
+            -122.43622570017436,
+            37.79796020015457
+          ],
+          [
+            -122.43609770068518,
+            37.797976500437734
+          ],
+          [
+            -122.43579510006307,
+            37.798015000729428
+          ],
+          [
+            -122.43569729930294,
+            37.798027400038237
+          ],
+          [
+            -122.43560229941347,
+            37.798039500049654
+          ],
+          [
+            -122.43533669997458,
+            37.798073299383169
+          ],
+          [
+            -122.43511639955699,
+            37.79810129984174
+          ],
+          [
+            -122.43414490017014,
+            37.798224700098331
+          ],
+          [
+            -122.43405320008611,
+            37.798236399564779
+          ],
+          [
+            -122.43396140004639,
+            37.798248099697418
+          ],
+          [
+            -122.43249900043574,
+            37.798434000234906
+          ],
+          [
+            -122.4324079991793,
+            37.798445600444246
+          ],
+          [
+            -122.43231409930554,
+            37.798457500420639
+          ],
+          [
+            -122.43076330031933,
+            37.79865469969932
+          ],
+          [
+            -122.43031769199312,
+            37.798711306596793
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 13,
+        "osm_id" : "292661158",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Filbert Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 4474.9130506541296,
+        "CenterID" : 13,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Filbert Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.43031769199312,
+            37.798711306596793
+          ],
+          [
+            -122.42921009981868,
+            37.798852000644487
+          ],
+          [
+            -122.42912079943247,
+            37.798863400144313
+          ],
+          [
+            -122.42902700077217,
+            37.798875299434513
+          ],
+          [
+            -122.42756870035315,
+            37.799060699155923
+          ],
+          [
+            -122.42747360032389,
+            37.799072799618209
+          ],
+          [
+            -122.42738380085413,
+            37.799084199642664
+          ],
+          [
+            -122.42663260054725,
+            37.799179800431133
+          ],
+          [
+            -122.42593589951636,
+            37.799266700017895
+          ],
+          [
+            -122.42583270043613,
+            37.799281099742799
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 14,
+        "osm_id" : "292661158",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Filbert Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 1312.3482764986945,
+        "CenterID" : 14,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Filbert Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 3.1000000000000001,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42583270043613,
+            37.799281099742799
+          ],
+          [
+            -122.42572909990776,
+            37.799295699693516
+          ],
+          [
+            -122.42537248186849,
+            37.799340746325633
+          ],
+          [
+            -122.42436579978283,
+            37.799467899587803
+          ],
+          [
+            -122.42418591050772,
+            37.799490873474248
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 15,
+        "osm_id" : "292661158",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Filbert Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 481.89795962439655,
+        "CenterID" : 15,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Filbert Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.41925659988877,
+            37.80013940054495
+          ],
+          [
+            -122.42077139999019,
+            37.799948600500223
+          ],
+          [
+            -122.42089689957837,
+            37.799916599968071
+          ],
+          [
+            -122.42101439964128,
+            37.799886699665819
+          ],
+          [
+            -122.42199349988756,
+            37.799764500173801
+          ],
+          [
+            -122.4224426009996,
+            37.799708499755972
+          ],
+          [
+            -122.42254320068004,
+            37.799695999194128
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 16,
+        "osm_id" : "399215885",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Filbert Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 964.01322417429515,
+        "CenterID" : 16,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Filbert Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42254320068004,
+            37.799695999194128
+          ],
+          [
+            -122.42263740024462,
+            37.799684199495886
+          ],
+          [
+            -122.42305299958976,
+            37.799632400065349
+          ],
+          [
+            -122.42399939996142,
+            37.79951429937703
+          ],
+          [
+            -122.42418591050772,
+            37.799490873474248
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 17,
+        "osm_id" : "399215885",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Filbert Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 480.46223209070433,
+        "CenterID" : 17,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Filbert Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.41742159997369,
+            37.79941269977315
+          ],
+          [
+            -122.41824550029733,
+            37.799308600699227
+          ],
+          [
+            -122.41904839982413,
+            37.799207199667812
+          ],
+          [
+            -122.41908389985547,
+            37.799202699873788
+          ],
+          [
+            -122.42010089930217,
+            37.799074199938389
+          ],
+          [
+            -122.42036079977275,
+            37.799041400274191
+          ],
+          [
+            -122.42062179993444,
+            37.799008400077632
+          ],
+          [
+            -122.42070910010615,
+            37.798986099782766
+          ],
+          [
+            -122.42079910038031,
+            37.798962500051431
+          ],
+          [
+            -122.42225740036622,
+            37.798778299984974
+          ],
+          [
+            -122.4223549996122,
+            37.798765899840056
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 18,
+        "osm_id" : "446598001",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Union Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 1445.3637264685926,
+        "CenterID" : 18,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Union Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42390112461443,
+            37.798081091039506
+          ],
+          [
+            -122.42382410767384,
+            37.797699876601826
+          ],
+          [
+            -122.42380919000912,
+            37.797625895040625
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 19,
+        "osm_id" : "527829985",
+        "code" : 5112,
+        "fclass" : "trunk",
+        "name" : "Van Ness Avenue",
+        "ref" : "US 101",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 167.8622088117539,
+        "CenterID" : 19,
+        "sum_lanes" : 4,
+        "mean_maxspeed" : 40,
+        "first_name" : "Van Ness Avenue",
+        "concat_fclass" : "trunk;trunk",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42418591050772,
+            37.799490873474248
+          ],
+          [
+            -122.42418581402991,
+            37.799490393800028
+          ],
+          [
+            -122.42417142663076,
+            37.799420291483649
+          ],
+          [
+            -122.42401349507342,
+            37.798636316367507
+          ],
+          [
+            -122.42399754166739,
+            37.798558538697357
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 20,
+        "osm_id" : "527857388",
+        "code" : 5112,
+        "fclass" : "trunk",
+        "name" : "Van Ness Avenue",
+        "ref" : "US 101",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 343.81946626790227,
+        "CenterID" : 20,
+        "sum_lanes" : 4,
+        "mean_maxspeed" : 40,
+        "first_name" : "Van Ness Avenue",
+        "concat_fclass" : "trunk;trunk",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42399754166739,
+            37.798558538697357
+          ],
+          [
+            -122.42399750653317,
+            37.798558366237401
+          ],
+          [
+            -122.42398069875293,
+            37.798475623294216
+          ],
+          [
+            -122.42392629027533,
+            37.798205696936797
+          ],
+          [
+            -122.42390112461443,
+            37.798081091039506
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 21,
+        "osm_id" : "527857390",
+        "code" : 5112,
+        "fclass" : "trunk",
+        "name" : "Van Ness Avenue",
+        "ref" : "US 101",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 176.06740287838926,
+        "CenterID" : 21,
+        "sum_lanes" : 4,
+        "mean_maxspeed" : 40,
+        "first_name" : "Van Ness Avenue",
+        "concat_fclass" : "trunk;trunk",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 22,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42380919000912,
+            37.797625895040625
+          ],
+          [
+            -122.42380918741188,
+            37.797625882465994
+          ],
+          [
+            -122.42379457104629,
+            37.797553402817755
+          ],
+          [
+            -122.42373598482156,
+            37.797262669671277
+          ],
+          [
+            -122.42363740408842,
+            37.796773952199665
+          ],
+          [
+            -122.42362091233881,
+            37.796692548647997
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 22,
+        "osm_id" : "527857392",
+        "code" : 5112,
+        "fclass" : "trunk",
+        "name" : "Van Ness Avenue",
+        "ref" : "US 101",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 344.17893354234377,
+        "CenterID" : 22,
+        "sum_lanes" : 4,
+        "mean_maxspeed" : 40,
+        "first_name" : "Van Ness Avenue",
+        "concat_fclass" : "trunk;trunk",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 23,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.4241237007214,
+            37.798060300404543
+          ],
+          [
+            -122.42438660000903,
+            37.798026400139541
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 23,
+        "osm_id" : "563059695",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 76.956380707373185,
+        "CenterID" : 23,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 24,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42390112461443,
+            37.798081091039506
+          ],
+          [
+            -122.4241237007214,
+            37.798060300404543
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 24,
+        "osm_id" : "563059696",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 64.753326596308128,
+        "CenterID" : 24,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 25,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42572769980917,
+            37.79804650011053
+          ],
+          [
+            -122.4259637004342,
+            37.798018899784935
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 25,
+        "osm_id" : "563059701",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 68.924704905174693,
+        "CenterID" : 25,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 26,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42558679994758,
+            37.798063999961371
+          ],
+          [
+            -122.42572769980917,
+            37.79804650011053
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 26,
+        "osm_id" : "563059702",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 41.206105444007484,
+        "CenterID" : 26,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 27,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42562170078652,
+            37.797559000257358
+          ],
+          [
+            -122.42586580006339,
+            37.797527199768162
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 27,
+        "osm_id" : "563059703",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 71.472718757456988,
+        "CenterID" : 27,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 3.1000000000000001,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 3.1000000000000001,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 28,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42548830012485,
+            37.797576900252437
+          ],
+          [
+            -122.42562170078652,
+            37.797559000257358
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 28,
+        "osm_id" : "563059704",
+        "code" : 5141,
+        "fclass" : "service",
+        "name" : " ",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 39.091128453492551,
+        "CenterID" : 28,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : " ",
+        "concat_fclass" : "service",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 1,
+        "Left_Bike_Buffer_Meta" : "post",
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 29,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.41558600056399,
+            37.798706200285416
+          ],
+          [
+            -122.41723420025232,
+            37.798482700086694
+          ],
+          [
+            -122.4178314005504,
+            37.798406600380986
+          ],
+          [
+            -122.41886060006802,
+            37.798275500016622
+          ],
+          [
+            -122.41889540035028,
+            37.798271099976766
+          ],
+          [
+            -122.41897590052628,
+            37.798260800416415
+          ],
+          [
+            -122.41991209991961,
+            37.798141499634255
+          ],
+          [
+            -122.42040599985211,
+            37.798078600521364
+          ],
+          [
+            -122.4205206000893,
+            37.798052000361828
+          ],
+          [
+            -122.42061670017169,
+            37.798030100228026
+          ],
+          [
+            -122.42216649966024,
+            37.797833899807848
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 29,
+        "osm_id" : "563092565",
+        "code" : 5122,
+        "fclass" : "residential",
+        "name" : "Green Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 1928.1234161766999,
+        "CenterID" : 29,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Green Street",
+        "concat_fclass" : "residential",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 30,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42216649966024,
+            37.797833899807848
+          ],
+          [
+            -122.42234029973352,
+            37.798692999639499
+          ],
+          [
+            -122.4223549996122,
+            37.798765899840056
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 30,
+        "osm_id" : "676568211",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Polk Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 343.70496850825174,
+        "CenterID" : 30,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Polk Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 1,
+        "Left_Bike_Buffer_Meta" : "post",
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 31,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42453230030135,
+            37.792852499774021
+          ],
+          [
+            -122.42454880031444,
+            37.792927600022026
+          ],
+          [
+            -122.42469669979606,
+            37.793659399903568
+          ],
+          [
+            -122.42470969974381,
+            37.793736199268125
+          ],
+          [
+            -122.42472579985429,
+            37.793803699755109
+          ],
+          [
+            -122.42487419953994,
+            37.794538100207191
+          ],
+          [
+            -122.42488860034243,
+            37.7946092999576
+          ],
+          [
+            -122.42490399959254,
+            37.794685499571173
+          ],
+          [
+            -122.42505570019932,
+            37.795436300235984
+          ],
+          [
+            -122.42507580023299,
+            37.795535400461276
+          ],
+          [
+            -122.42509559903924,
+            37.79563369991353
+          ],
+          [
+            -122.42525370054587,
+            37.796415799498263
+          ],
+          [
+            -122.42526699912729,
+            37.796482700365466
+          ],
+          [
+            -122.42528319976788,
+            37.796561700425137
+          ],
+          [
+            -122.42544179951804,
+            37.797346699774572
+          ],
+          [
+            -122.4254558998545,
+            37.797416300180252
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 31,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 1683.0961141549747,
+        "CenterID" : 31,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 1,
+        "Left_Bike_Buffer_Meta" : "paint",
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 32,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.4254558998545,
+            37.797416300180252
+          ],
+          [
+            -122.42547160022221,
+            37.797494299916167
+          ],
+          [
+            -122.42548830012485,
+            37.797576900252437
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 32,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 59.222717588481927,
+        "CenterID" : 32,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 1.7,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 33,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42548830012485,
+            37.797576900252437
+          ],
+          [
+            -122.42558679994758,
+            37.798063999961371
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 33,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 179.63287886382199,
+        "CenterID" : 33,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 3.1000000000000001,
+        "Left_Through_Lane_4" : 3.1000000000000001,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 3.1000000000000001,
+        "Right_Through_Lane_3" : 3.1000000000000001,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 34,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42558679994758,
+            37.798063999961371
+          ],
+          [
+            -122.42562949975733,
+            37.798275400005544
+          ],
+          [
+            -122.42564439991153,
+            37.798349200501072
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 34,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 105.17308080369612,
+        "CenterID" : 34,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 3.1000000000000001,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 2.4500000000000002,
+        "Right_Parking_Lane_Meta" : "parking",
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 35,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42564439991153,
+            37.798349200501072
+          ],
+          [
+            -122.42566040013432,
+            37.798428499366153
+          ],
+          [
+            -122.42571830031567,
+            37.798714699811832
+          ],
+          [
+            -122.42581759990438,
+            37.799206200364388
+          ],
+          [
+            -122.42583270043613,
+            37.799281099742799
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 35,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 343.65957852983621,
+        "CenterID" : 35,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 3.1000000000000001,
+        "Left_Through_Lane_4" : 3.1000000000000001,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3,
+        "Center_Lane_Meta" : "turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 3.1000000000000001,
+        "Right_Through_Lane_3" : 3.1000000000000001,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 0,
+        "Right_Bike_Buffer_Meta" : null,
+        "Right_Bike_Lane" : 0,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 36,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42583270043613,
+            37.799281099742799
+          ],
+          [
+            -122.42584829989347,
+            37.799358199847873
+          ],
+          [
+            -122.42600820061861,
+            37.800149499900932
+          ],
+          [
+            -122.42602140077641,
+            37.800214699872186
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 36,
+        "osm_id" : "713758728",
+        "code" : 5114,
+        "fclass" : "secondary",
+        "name" : "Franklin Street",
+        "ref" : " ",
+        "oneway" : "F",
+        "maxspeed" : 40,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 1,
+        "lanes" : 2,
+        "Shape_Length" : 344.28933485375381,
+        "CenterID" : 36,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 40,
+        "first_name" : "Franklin Street",
+        "concat_fclass" : "secondary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 3.1000000000000001,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 1,
+        "Right_Bike_Buffer_Meta" : "post",
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 37,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42518399968361,
+            37.798407799501881
+          ],
+          [
+            -122.42554089948591,
+            37.798362399989678
+          ],
+          [
+            -122.42564439991153,
+            37.798349200501072
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 37,
+        "osm_id" : "713801529",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Union Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 134.7240367249928,
+        "CenterID" : 37,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Union Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 0,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 0,
+        "Left_Parking_Lane_Meta" : null,
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 0,
+        "Center_Lane_Meta" : null,
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 3.1000000000000001,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 1,
+        "Right_Bike_Buffer_Meta" : "curb",
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 1.3,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "transverse",
+        "Begin_Crosswalk_Meta" : "continental",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 38,
+      "geometry" : {
+        "type" : "LineString",
+        "coordinates" : [
+          [
+            -122.42399754166739,
+            37.798558538697357
+          ],
+          [
+            -122.42419249987776,
+            37.798533800629528
+          ],
+          [
+            -122.42457239956772,
+            37.798485500864921
+          ],
+          [
+            -122.42518399968361,
+            37.798407799501881
+          ]
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 38,
+        "osm_id" : "713801530",
+        "code" : 5115,
+        "fclass" : "tertiary",
+        "name" : "Union Street",
+        "ref" : " ",
+        "oneway" : "B",
+        "maxspeed" : 0,
+        "layer" : 0,
+        "bridge" : "F",
+        "tunnel" : "F",
+        "oneway_num" : 0,
+        "lanes" : 2,
+        "Shape_Length" : 347.16967211507568,
+        "CenterID" : 38,
+        "sum_lanes" : 2,
+        "mean_maxspeed" : 0,
+        "first_name" : "Union Street",
+        "concat_fclass" : "tertiary",
+        "SharedStreetID" : null,
+        "Left_Sidewalk_Frontage_Zone" : 0,
+        "Left_Sidewalk_Through_Zone" : 2,
+        "Left_Sidewalk_Furniture_Zone" : 1.3,
+        "Left_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Left_Bike_Lane" : 0,
+        "Left_Bike_Buffer" : 0,
+        "Left_Bike_Buffer_Meta" : null,
+        "Left_Parking_Lane" : 2.4500000000000002,
+        "Left_Parking_Lane_Meta" : "parking",
+        "Left_Through_Lane_1" : 3.1099999999999999,
+        "Left_Through_Lane_2" : 0,
+        "Left_Through_Lane_3" : 0,
+        "Left_Through_Lane_4" : 0,
+        "Left_Transit_Lane" : null,
+        "Left_Transit_Meta" : null,
+        "Center_Lane" : 3.3999999999999999,
+        "Center_Lane_Meta" : "median_turn_lane",
+        "Right_Transit_Lane" : null,
+        "Right_Transit_Meta" : null,
+        "Right_Through_Lane_4" : 0,
+        "Right_Through_Lane_3" : 0,
+        "Right_Through_Lane_2" : 0,
+        "Right_Through_Lane_1" : 3.1099999999999999,
+        "Right_Parking_Lane" : 0,
+        "Right_Parking_Lane_Meta" : null,
+        "Right_Bike_Buffer" : 1,
+        "Right_Bike_Buffer_Meta" : "curb",
+        "Right_Bike_Lane" : 1.7,
+        "Right_Sidewalk_Furniture_Zone" : 0,
+        "Right_Sidewalk_Furniture_Meta" : "vegetated_with_trees",
+        "Right_Sidewalk_Through_Zone" : 2,
+        "Right_Sidewalk_Frontage_Zone" : 0,
+        "End_Crosswalk_Width" : 3.1099999999999999,
+        "Begin_Crosswalk_Width" : 3.1099999999999999,
+        "End_Crosswalk_Meta" : "continental",
+        "Begin_Crosswalk_Meta" : "transverse",
+        "Off_Street_Width" : null,
+        "Off_Street_Meta" : null
+      }
+    }
+  ]
+}
