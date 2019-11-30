@@ -9,14 +9,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="765">
+              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding>
                 <element signature="e#997#1009#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="166" column="77" selection-start-line="166" selection-start-column="70" selection-end-line="166" selection-end-column="77" />
+              <folding>
+                <element signature="e#1018#1030#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,7 +225,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20724346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20992622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,16 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="166" column="77" selection-start-line="166" selection-start-column="70" selection-end-line="166" selection-end-column="77" />
-          <folding>
-            <element signature="e#1018#1030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/1_Additive_Spec_Add_Fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -366,10 +368,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="765">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
           <folding>
             <element signature="e#997#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="166" column="77" selection-start-line="166" selection-start-column="70" selection-end-line="166" selection-end-column="77" />
+          <folding>
+            <element signature="e#1018#1030#0" expanded="true" />
           </folding>
         </state>
       </provider>
