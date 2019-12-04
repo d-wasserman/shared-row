@@ -63,6 +63,7 @@ def consolidate_centerline(in_fc, out_fc, out_consolidation_table, merge_field, 
         sql_query = "{0} in {1}".format(object_id_field, tuple(i for i in consolidation_df[input_fid].unique()))
         srl.arc_print("Reading input feature classes consolidated...")
         all_fields = sum_fields + mean_fields + first_fields + concat_fields
+        all_fields = [i for i in all_fields if srl.field_exist(in_fc,i)] # Filter Non-Existent Fields
         consolidated_input_df = srl.arcgis_table_to_df(in_fc, all_fields, sql_query)
         consolidated_input_df = consolidated_input_df.merge(consolidation_df, how="left",
                                                             left_index=True, right_on=input_fid)
