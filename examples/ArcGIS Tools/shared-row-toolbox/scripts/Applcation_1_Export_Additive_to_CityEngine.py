@@ -3,7 +3,7 @@
 # Purpose: This tool will extract data from ArcGIS Pro for CityEngine to use as attributes in the Complete Street Rule.
 # If run fails: try closing input source and output source
 # Current Owner: Tim Brown
-# Last Modified: 12/2/2019
+# Last Modified: 12/6/2019
 # Copyright:   Tim Brown & David Wasserman
 # ArcGIS Version:   ArcGIS Pro/10.4
 # Python Version:   3.5/2.7
@@ -44,15 +44,19 @@ def generate_complete_street_attributes(input_features, output_features):
     arcpy.CopyFeatures_management(input_features, output_features)
     srl.arc_print("Adding Complete Street Rule Attribute fields...")
     # Step 2 - Add Fields to the feature class for the Complete Street Rule
-    complete_street_attributes = ["streetWidth", "sidewalkWidthRight", "sidewalkWidthLeft",
+    complete_street_attributes = ["streetWidth", "Center_Width", "sidewalkWidthRight", "sidewalkWidthLeft",
                                   "Left_Buffer_Width", "Left_Bike_Lane_Width", "Left_Parking_Width",
                                   "Right_Buffer_Width", "Right_Bike_Lane_Width",  "Right_Parking_Width"]
+    complete_street_attributes_text = ["Center_Type", "Left_Buffer_Type", "Right_Buffer_Type"]
     for rule_attr in complete_street_attributes:
         srl.add_new_field(output_features, rule_attr, "DOUBLE")
+    for rule_attr in complete_street_attributes_text:
+        srl.add_new_field(output_features, rule_attr, "TEXT")
     # Step 3 - Use Update Cursor add values to fields based on Additive Fields
     fields = [f.name for f in arcpy.ListFields(output_features) if f.type not in ["OID"] and f.name.lower()
               not in ["shape", "shape_area", "shape_length"]]
     num_fields = [f.name for f in arcpy.ListFields(output_features) if f.type in ["Double", "Long", "Short", "Float"]]
+    text_fields = [f.name for f in arcpy.ListFields(output_features) if f.type in ["Text"]]
     field_dictionary = srl.construct_index_dict(fields)
     print(field_dictionary)
     with arcpy.da.UpdateCursor(output_features, fields) as cursor:
@@ -65,17 +69,16 @@ def generate_complete_street_attributes(input_features, output_features):
                 value = row[index]
                 if value is None:
                    row[field_dictionary.get(field)] = 0
-
-            # print([row[field_dictionary.get(null_key)])
+            # Finding the Street Width
             center_lane_width = row[field_dictionary.get('Center_Lane')]
             left_bike_buffer_width = row[field_dictionary.get("Left_Bike_Buffer")]
             left_bike_lane_width = row[field_dictionary.get("Left_Bike_Lane")]
-            left_transit_width = row[field_dictionary.get("Left_Transit_Lane")]  # NoneType
+            left_transit_width = row[field_dictionary.get("Left_Transit_Lane")]
             left_parking_width = row[field_dictionary.get("Left_Parking_Lane")]
             right_bike_buffer_width = row[field_dictionary.get("Right_Bike_Buffer")]
             right_bike_lane_width = row[field_dictionary.get("Right_Bike_Lane")]
             right_parking_width = row[field_dictionary.get("Right_Parking_Lane")]
-            right_transit_width = row[field_dictionary.get("Right_Transit_Lane")]  # NoneType
+            right_transit_width = row[field_dictionary.get("Right_Transit_Lane")]
             # Support the 4 right and left through lanes
             LTL_List = [f.name for f in arcpy.ListFields(output_features) if "Left_Through_Lane" in f.name]
             LTL_Num_List = [row[field_dictionary.get(index)] for index in LTL_List
@@ -100,7 +103,7 @@ def generate_complete_street_attributes(input_features, output_features):
             sidewalkLeftValue = ls_frontage_width + ls_furniture_width + ls_through_width
             sidewalkRightValue = rs_frontage_width + rs_furniture_width + rs_through_width
             row[field_dictionary.get("streetWidth")] = streetWidthValue
-            # City Engine takes the first 10 letters only
+            row[field_dictionary.get("Center_Width")] = center_lane_width
             row[field_dictionary.get("sidewalkWidthRight")] = sidewalkRightValue
             row[field_dictionary.get("sidewalkWidthLeft")] = sidewalkLeftValue
             # Update Fields to have bike lane, bike lane buffers, and bike lane buffer types OR parking lanes
@@ -110,6 +113,22 @@ def generate_complete_street_attributes(input_features, output_features):
             row[field_dictionary.get("Right_Bike_Lane_Width")] = right_bike_lane_width
             row[field_dictionary.get("Right_Buffer_Width")] = right_bike_buffer_width
             row[field_dictionary.get("Right_Parking_Width")] = right_parking_width
+            # Find if the text value is Null
+            for field2 in text_fields:
+                index2 = field_dictionary.get(field2, None)
+                if index2 is None:
+                    continue
+                text = row[index2]
+                if text is None:
+                    row[field_dictionary.get(field2)] = "None"
+            # Finds all Text fields that
+            center_lane_type = row[field_dictionary.get("Center_Lane_Meta")]
+            left_buffer_type = row[field_dictionary.get("Left_Bike_Buffer_Meta")]
+            right_buffer_type = row[field_dictionary.get("Right_Bike_Buffer_Meta")]
+            # Make the text values the CityEngine Complete Streets Attributes
+            row[field_dictionary.get("Center_Type")] = center_lane_type
+            row[field_dictionary.get("Left_Buffer_Type")] = left_buffer_type
+            row[field_dictionary.get("Right_Buffer_Type")] = right_buffer_type
             cursor.updateRow(row)
 
             pass
@@ -134,7 +153,6 @@ def generate_complete_street_attributes(input_features, output_features):
 if __name__ == '__main__':
     # Define input parameters
     import os
-    # Eventually we will use arcpy.GetParameterAsText(X) - see docs
     input_feature_class = arcpy.GetParameterAsText(0)
     output_feature_class = arcpy.GetParameterAsText(1)
     generate_complete_street_attributes(input_feature_class,output_feature_class)
