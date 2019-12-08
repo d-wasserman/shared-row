@@ -22,13 +22,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/2_Additive_Spec_Add_Domains.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
               <caret line="166" column="77" selection-start-line="166" selection-start-column="70" selection-end-line="166" selection-end-column="77" />
               <folding>
                 <element signature="e#1018#1030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/Applcation_1_Export_Additive_to_CityEngine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="142" column="44" lean-forward="true" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+              <folding>
+                <element signature="e#1109#1121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +92,7 @@
         <option value="$PROJECT_DIR$/scripts/sharedrowlib.py" />
         <option value="$PROJECT_DIR$/scripts/3_Generate_Crosswalk_File.py" />
         <option value="$PROJECT_DIR$/scripts/4_Slice_Spec_Exporter.py" />
+        <option value="$PROJECT_DIR$/scripts/Applcation_1_Export_Additive_to_CityEngine.py" />
       </list>
     </option>
   </component>
@@ -93,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +122,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +238,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20992622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.212609" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -243,7 +256,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.046277665" />
+      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.04158283" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25955734" />
@@ -382,6 +395,16 @@
           <caret line="166" column="77" selection-start-line="166" selection-start-column="70" selection-end-line="166" selection-end-column="77" />
           <folding>
             <element signature="e#1018#1030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/Applcation_1_Export_Additive_to_CityEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="142" column="44" lean-forward="true" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+          <folding>
+            <element signature="e#1109#1121#0" expanded="true" />
           </folding>
         </state>
       </provider>
