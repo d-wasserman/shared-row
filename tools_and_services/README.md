@@ -1,5 +1,6 @@
-# Samples
-This directory contains sample scripts or links to coding projects that can help transform data to match the specification or consume the specification for consumer applications. Scripts for desktop applications or utilities are welcome in the repository as long as their size is limited. 
+# Tools & Service
+This directory contains links to tools & services that can help transform data to match the specification or consume the specification for consumer applications. Contributions of tools and related services are welcome. 
+
 Each added sample project should have a folder and append a description and information about the project in the table below. 
 
 | Project Name | Project Purpose | Dependencies | Notes |Project Link| Download Link|
