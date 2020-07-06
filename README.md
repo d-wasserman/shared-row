@@ -33,11 +33,17 @@ The following section identifies challenges currently encountered in developing 
 
 For a more detailed description of the specification, check specification [here](../master/specification).
 
+# Related Specifications & Databases
+
+* [OpenStreetMap](https://www.openstreetmap.org/)
+* [General Modeling Network Specification](https://github.com/zephyr-data-specs/GMNS/tree/updates)
+* [MIRE Roadway Inventory Elements](https://safety.fhwa.dot.gov/rsdp/downloads/fhwasa17048.pdf)
+
 # Related Projects
 
 * [SharedStreets](https://www.sharedstreets.io/) (and the [CurbLR](https://github.com/sharedstreets/CurbLR) specification)
 * [Streetmix](https://github.com/streetmix/streetmix)
-* [OpenStreetMap](https://www.openstreetmap.org/)
 * [CityEngine Complete Street Rule](https://github.com/d-wasserman/Complete_Street_Rule)
 * [Remix Streets](https://www.remix.com/streets)
 * [USDM StreetDesign Tool](https://usdm.upc.gov.ae/USDM/)
+* [AB Street](https://github.com/dabreegster/abstreet)
