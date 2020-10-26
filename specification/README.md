@@ -12,10 +12,12 @@ The specification is documented in these markdown tables updated on 10/26/2020.
 
 ## Crosswalk Specification Tables
 **Description**: A share-row-crosswalk consists of each row representing a slice of street sharing a common shared-street id. Intended to allow the conversion between Additive and Sliced based specifications in an editable GIS/SQL database. 
+
 **Markdown Table**: [Here](MarkdownTables/Crosswalk.md)
 
 ## Slice Specification Tables
 **Description**: Represents a web readable geojson layer with both line geometry and nested slices identified. This helps create a web transferable layer for application development.  
+
 **Markdown Table**: [Here](MarkdownTables/Slice.md)
 
 # Specification Excel Sheet
