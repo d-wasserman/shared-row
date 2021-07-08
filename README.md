@@ -1,10 +1,10 @@
 # shared-row
-This is an open data specification for describing the right-of-way (ROW) for a SharedStreets Reference. It is intended to establish a common set of attributes (schema) to describe how space is allocated along a streets right of way from sidewalk edge to sidewalk edge. Its goal is to enable a common language for describing streets cross-sections within a spatial database so that transportation professionals can compare high-level right of way summaries across jurisdictions, build applications on top of a common schema, or create queries about streets that would previously be hard to do. For example, with this specification, you could query which streets have bike lanes at least 5 ft wide with an 18 in painted buffer. 
+This is an open data specification for describing the right-of-way (ROW) for street centerline networks. It is intended to establish a common set of attributes (schema) to describe how space is allocated along a streets right of way from sidewalk edge to sidewalk edge. Its goal is to enable a common language for describing streets cross-sections within a spatial database so that transportation professionals can compare high-level right of way summaries across jurisdictions, build applications on top of a common schema, or create queries about streets that would previously be hard to do. For example, with this specification, you could query which streets have bike lanes at least 5 ft wide with an 18 in painted buffer. 
 
 # Goal
 The goal of this specification is to enable transportation professionals, urban planners, and urban designers to create a common database schema to describe the right of way.
 # Objectives
-The specific objectives of this specification revolve around creating a common specification built around SharedStreets that helps to define the right-of-way (ROW) of a street. This specification also aims to provide ready to use tools to build these databases and develop crosswalks between different representations of the ROW.
+The specific objectives of this specification revolve around creating a common specification inspired by SharedStreets that helps to define the right-of-way (ROW) of a street. This specification also aims to provide ready to use tools to build these databases and develop crosswalks between different representations of the ROW.
 
 These objectives can be identified specifically below:
 
