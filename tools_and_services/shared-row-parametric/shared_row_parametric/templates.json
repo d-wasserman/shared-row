@@ -1,0 +1,133 @@
+{
+  "$comment": [
+    "Default street archetypes for shared-row-parametric. Widths are METRES,",
+    "heights CENTIMETRES, per the shared-row specification.",
+    "",
+    "These are ILLUSTRATIVE STARTING POINTS drawn from widths that appear",
+    "commonly in practice, not values adopted from any standard. Every",
+    "jurisdiction has its own design criteria: copy this file, edit the",
+    "numbers to match your local standards, and pass it with --template-file.",
+    "",
+    "Travel lanes are numbered from the KERB INWARD, so drive_1 is the",
+    "outermost lane on each side. That matches Through_Lane_1 in the",
+    "additive schema, verified against all 10 multi-lane segments in",
+    "specification/Samples where the lane widths differ.",
+    "",
+    "'half' is a half section ordered from the OUTSIDE EDGE INWARD; it is",
+    "mirrored to build the full left-to-right section, with 'centre' between",
+    "the two sides. priority: higher is dropped first. required: never",
+    "dropped. flex: relative share of shrink and growth (0 pins the width)."
+  ],
+  "templates": [
+    {
+      "name": "local_residential",
+      "description": "Low-volume residential street: walkway both sides, kerbside parking, one travel lane per direction.",
+      "row_range": [11.0, 18.0],
+      "tags": ["local", "residential"],
+      "filler": "planting_strip",
+      "half": [
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 1.5, "preferred_width": 1.8, "max_width": 3.0, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "planting_strip", "role": "furniture", "min_width": 0.6, "preferred_width": 1.2, "max_width": 2.4, "priority": 85, "flex": 1.5, "height": 15.24, "meta": {"zone": "furniture"}},
+        {"type": "parking", "role": "parking", "min_width": 2.1, "preferred_width": 2.45, "max_width": 2.6, "priority": 90, "flex": 0.4},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 2.7, "preferred_width": 3.0, "max_width": 3.3, "priority": 20, "required": true, "flex": 0.5}
+      ]
+    },
+    {
+      "name": "neighborhood_yield",
+      "description": "Narrow yield street: a single shared travel space that oncoming drivers negotiate, parking where width allows.",
+      "row_range": [8.0, 13.0],
+      "tags": ["local", "residential", "narrow"],
+      "half": [
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 1.2, "preferred_width": 1.8, "max_width": 2.6, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "parking", "role": "parking", "min_width": 2.1, "preferred_width": 2.45, "max_width": 2.6, "priority": 90, "flex": 0.4}
+      ],
+      "centre": {"type": "limitless", "role": "yield_lane", "min_width": 3.0, "preferred_width": 4.5, "max_width": 5.5, "priority": 10, "required": true, "flex": 1.0, "direction": "bidirectional", "meta": {"shared": true}}
+    },
+    {
+      "name": "shared_street",
+      "description": "Flush shared space (woonerf): no kerb, pedestrian priority, vehicles as guests.",
+      "row_range": [7.0, 15.0],
+      "tags": ["local", "shared", "traffic-calming"],
+      "half": [
+        {"type": "sidewalk", "role": "edge_zone", "min_width": 0.9, "preferred_width": 1.5, "max_width": 3.0, "priority": 5, "required": true, "flex": 2.0, "height": 0.0, "material": "brick", "meta": {"flush": true, "zone": "frontage"}},
+        {"type": "planting_strip", "role": "furniture", "min_width": 0.6, "preferred_width": 1.2, "max_width": 2.4, "priority": 80, "flex": 1.2, "height": 0.0}
+      ],
+      "centre": {"type": "limitless", "role": "shared_space", "min_width": 3.6, "preferred_width": 4.8, "max_width": 6.5, "priority": 10, "required": true, "flex": 1.0, "material": "brick", "meta": {"shared": true, "pedestrian_priority": true}}
+    },
+    {
+      "name": "main_street",
+      "description": "Commercial main street: generous walkway and frontage zone, kerbside parking, one travel lane per direction, optional centre turn lane.",
+      "row_range": [17.0, 27.0],
+      "tags": ["commercial", "urban"],
+      "filler": "sidewalk",
+      "half": [
+        {"type": "sidewalk", "role": "frontage", "min_width": 0.6, "preferred_width": 0.9, "max_width": 2.0, "priority": 75, "flex": 1.0, "height": 15.24, "meta": {"zone": "frontage"}},
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 1.8, "preferred_width": 2.4, "max_width": 4.5, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "planting_strip", "role": "furniture", "min_width": 0.6, "preferred_width": 1.5, "max_width": 2.5, "priority": 82, "flex": 1.5, "height": 15.24, "meta": {"zone": "furniture"}},
+        {"type": "parking", "role": "parking", "min_width": 2.1, "preferred_width": 2.45, "max_width": 2.6, "priority": 88, "flex": 0.4},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 2.7, "preferred_width": 3.1, "max_width": 3.3, "priority": 20, "required": true, "flex": 0.4}
+      ],
+      "centre": {"type": "turn_lane", "role": "centre_turn", "min_width": 2.7, "preferred_width": 3.0, "max_width": 3.6, "priority": 65, "flex": 0.6, "direction": "bidirectional", "meta": {"remainder_allocation": "median"}}
+    },
+    {
+      "name": "urban_arterial",
+      "description": "Multi-lane urban arterial: two travel lanes per direction, kerbside bike lane with buffer, raised median.",
+      "row_range": [24.0, 38.0],
+      "tags": ["arterial", "urban"],
+      "filler": "planting_strip",
+      "half": [
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 1.8, "preferred_width": 2.4, "max_width": 4.5, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "planting_strip", "role": "furniture", "min_width": 0.6, "preferred_width": 1.5, "max_width": 3.0, "priority": 82, "flex": 1.5, "height": 15.24, "meta": {"zone": "furniture"}},
+        {"type": "bike_lane", "role": "bike", "min_width": 1.5, "preferred_width": 1.8, "max_width": 2.4, "priority": 55, "flex": 0.8},
+        {"type": "buffer", "role": "bike_buffer", "min_width": 0.3, "preferred_width": 0.6, "max_width": 1.5, "priority": 78, "flex": 1.0, "material": "paint", "meta": {"separation": "paint"}},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 2.9, "preferred_width": 3.3, "max_width": 3.6, "priority": 20, "required": true, "flex": 0.4},
+        {"type": "drive_lane", "role": "drive_2", "min_width": 2.9, "preferred_width": 3.3, "max_width": 3.6, "priority": 45, "flex": 0.4}
+      ],
+      "centre": {"type": "median", "role": "median", "min_width": 1.2, "preferred_width": 3.0, "max_width": 6.0, "priority": 70, "flex": 1.5, "height": 15.24, "direction": "bidirectional"}
+    },
+    {
+      "name": "protected_bikeway_street",
+      "description": "Parking-protected bikeway: the cycle track sits between the walkway and the parking lane, so parked cars shield riders from traffic.",
+      "row_range": [18.0, 30.0],
+      "tags": ["urban", "bicycle", "protected"],
+      "filler": "planting_strip",
+      "half": [
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 1.8, "preferred_width": 2.4, "max_width": 4.0, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "bike_lane", "role": "bike", "min_width": 1.8, "preferred_width": 2.1, "max_width": 3.0, "priority": 25, "required": true, "flex": 0.8, "meta": {"protected": true, "behind_parking": true}},
+        {"type": "buffer", "role": "bike_buffer", "min_width": 0.6, "preferred_width": 0.9, "max_width": 1.5, "priority": 60, "flex": 1.0, "material": "concrete", "meta": {"separation": "curb"}},
+        {"type": "parking", "role": "parking", "min_width": 2.1, "preferred_width": 2.45, "max_width": 2.6, "priority": 88, "flex": 0.4},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 2.9, "preferred_width": 3.1, "max_width": 3.3, "priority": 20, "required": true, "flex": 0.4}
+      ],
+      "centre": {"type": "turn_lane", "role": "centre_turn", "min_width": 2.7, "preferred_width": 3.0, "max_width": 3.6, "priority": 68, "flex": 0.6, "direction": "bidirectional"}
+    },
+    {
+      "name": "transit_boulevard",
+      "description": "Centre-running transit boulevard: dedicated transit way in the median, general traffic and cycle tracks outboard.",
+      "row_range": [30.0, 48.0],
+      "tags": ["arterial", "transit", "boulevard"],
+      "filler": "planting_strip",
+      "half": [
+        {"type": "sidewalk", "role": "sidewalk", "min_width": 2.1, "preferred_width": 3.0, "max_width": 5.0, "priority": 5, "required": true, "flex": 2.0, "height": 15.24, "meta": {"zone": "through"}},
+        {"type": "planting_strip", "role": "furniture", "min_width": 0.6, "preferred_width": 1.8, "max_width": 3.0, "priority": 82, "flex": 1.5, "height": 15.24, "meta": {"zone": "furniture"}},
+        {"type": "bike_lane", "role": "bike", "min_width": 1.8, "preferred_width": 2.1, "max_width": 2.6, "priority": 50, "flex": 0.8},
+        {"type": "buffer", "role": "bike_buffer", "min_width": 0.3, "preferred_width": 0.9, "max_width": 1.5, "priority": 76, "flex": 1.0, "material": "concrete", "meta": {"separation": "curb"}},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 2.9, "preferred_width": 3.3, "max_width": 3.5, "priority": 20, "required": true, "flex": 0.4},
+        {"type": "drive_lane", "role": "drive_2", "min_width": 2.9, "preferred_width": 3.3, "max_width": 3.5, "priority": 45, "flex": 0.4}
+      ],
+      "centre": {"type": "transit", "role": "transitway", "min_width": 6.0, "preferred_width": 7.5, "max_width": 9.5, "priority": 15, "required": true, "flex": 0.8, "direction": "bidirectional", "height": 0.0, "meta": {"mode": "rail", "centre_running": true}}
+    },
+    {
+      "name": "rural_shoulder",
+      "description": "Rural two-lane road: paved shoulders, a vegetated filter strip for drainage, and an optional side path.",
+      "row_range": [9.0, 22.0],
+      "tags": ["rural"],
+      "filler": "filter_strip",
+      "half": [
+        {"type": "path", "role": "side_path", "min_width": 1.5, "preferred_width": 2.4, "max_width": 3.0, "priority": 72, "flex": 1.0, "meta": {"shared_use": true}},
+        {"type": "filter_strip", "role": "swale", "min_width": 0.6, "preferred_width": 1.5, "max_width": 3.5, "priority": 84, "flex": 1.8, "height": -15.0, "meta": {"drainage": true}},
+        {"type": "buffer", "role": "shoulder", "min_width": 0.6, "preferred_width": 1.2, "max_width": 2.4, "priority": 40, "flex": 1.0, "material": "asphalt", "meta": {"shoulder": true}},
+        {"type": "drive_lane", "role": "drive_1", "min_width": 3.0, "preferred_width": 3.6, "max_width": 3.9, "priority": 20, "required": true, "flex": 0.4}
+      ]
+    }
+  ]
+}
